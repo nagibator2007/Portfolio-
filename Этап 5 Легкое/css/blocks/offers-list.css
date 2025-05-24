@@ -1,0 +1,37 @@
+.offers-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 300px 300px 280px 300px;
+  gap: 20px 20px;
+}
+
+.offers-list__item {
+  display: flex;
+}
+
+.offers-list__item--row {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.offers-list__item--column {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.offers-list__item--last {
+  grid-column-start: 4;
+}
+
+.offers-list__item--column
+.special-card__action {
+  gap: 430px;
+}
+
+.offers-list__item--last
+.special-card {
+  gap: 34px;
+}

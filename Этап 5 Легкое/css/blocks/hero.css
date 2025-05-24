@@ -1,0 +1,39 @@
+.hero {
+    background-color: #F4F6FA;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    height: calc(100vh - 88px);
+}
+
+.hero__content {
+    padding: 196px 0;
+}
+
+.hero__content-title {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 0 0 24px;
+}
+
+.hero__content-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 48px;
+}
+
+.hero__img {
+    max-height: 500px;
+}
+
+.hero__content-btn {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}

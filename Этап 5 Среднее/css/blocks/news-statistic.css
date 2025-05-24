@@ -1,0 +1,18 @@
+.news-statistic {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.news-statistic__text {
+    display: flex;
+    gap: 4px;
+    color: #696E82;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.news-statistic__text img {
+    object-fit: contain;
+}

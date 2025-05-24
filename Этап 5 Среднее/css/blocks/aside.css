@@ -1,0 +1,28 @@
+.aside__title {
+    margin: 0 0 24px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.aside__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    color: #696E82;
+    margin: 0 0 48px;
+}
+
+.aside__footer-text {
+    display: inline-block;
+    color: #696E82;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+
+.aside__footer-description {
+    font-size: 13px;
+    line-height: 16px;
+    color: #696E82;
+    margin: 0;
+}

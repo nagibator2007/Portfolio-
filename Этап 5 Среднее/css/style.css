@@ -1,0 +1,22 @@
+/* Global */
+/* ------------------------------------ */
+@import './global/reboot.css';
+@import './global/fonts.css';
+@import './global/visually-hidden.css';
+@import './global/container.css';
+
+/* Blocks */
+/* ------------------------------------ */
+
+@import './blocks/header.css';
+@import './blocks/footer.css';
+@import './blocks/main.css';
+@import './blocks/nav.css';
+@import './blocks/nav-list.css';
+@import './blocks/btn.css';
+@import './blocks/aside.css';
+@import './blocks/aside-list.css';
+@import './blocks/social.css';
+@import './blocks/news.css';
+@import './blocks/news-list.css';
+@import './blocks/news-statistic.css';

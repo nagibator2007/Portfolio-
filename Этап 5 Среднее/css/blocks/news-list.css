@@ -1,0 +1,26 @@
+.news-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 340px);
+    gap: 40px 32px;
+}
+
+.news-list__item--xl  .news__content{
+    padding: 20px 32px 0;
+
+}
+
+.news-list__item--xl .news__img {
+    border-radius: 16px 0 0 16px;
+    margin: 0;
+}
+
+.news-list__item--xl {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #F4F6FA;
+    border-radius: 16px;
+}

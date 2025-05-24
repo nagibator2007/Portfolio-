@@ -1,0 +1,21 @@
+.aside-list {
+    margin: 0 0 60px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.aside-list__item-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.aside-list__item-link-img {
+    border-radius: 8px;
+}

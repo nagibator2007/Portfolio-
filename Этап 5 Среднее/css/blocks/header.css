@@ -1,0 +1,23 @@
+.header {
+    padding: 5px 0 20px;
+    background: linear-gradient(90deg, #415BD2 0%, #8DA1F7 100%);
+}
+
+.header__tab {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
