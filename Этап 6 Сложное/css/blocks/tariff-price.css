@@ -1,0 +1,86 @@
+.tariff-price {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tariff-price__item {
+    position: relative;
+    padding: 8px 16px 16px;
+    border: 2px solid #E2E4E8;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.tariff-price__item:has(.tariff-price__input:checked) { /* Используем :has чтобы не указывать класс после input */
+    border-color: #259DD6;
+}
+
+.tariff-price__input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.tariff-price__radio-box {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    height: 24px;
+    width: 24px;
+}
+
+.tariff-price__radio-checked {
+    display: none; 
+}
+  
+.tariff-price__item:has(.tariff-price__input:checked) .tariff-price__radio-unchecked {
+    display: none;
+}
+  
+.tariff-price__item:has(.tariff-price__input:checked) .tariff-price__radio-checked {
+    display: block; 
+}
+
+.tariff-price__item:focus-within,
+.tariff-price__item:hover {
+    border-color:#259DD6;
+}
+
+
+.tariff-price__content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tariff-price__content--gap {
+    gap: 8px;
+}
+
+.tariff-price__price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tariff-price__value {
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.tariff-price__unit {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.tariff-price__desc {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+}

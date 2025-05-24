@@ -1,0 +1,57 @@
+.fieldset-checkbox__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.fieldset-checkbox__custom-input {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    gap: 20px;
+}
+  
+.fieldset-checkbox__input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+.fieldset-checkbox__box {
+    height: 20px;
+    width: 20px;
+}
+  
+.fieldset-checkbox__icon .fieldset-checkbox__tick {
+    opacity: 0;
+    transition: 0.35s;
+}
+  
+.fieldset-checkbox__input:checked ~ .fieldset-checkbox__box .fieldset-checkbox__icon .fieldset-checkbox__tick {
+   opacity: 1;
+   transition: 0.35s;
+}
+
+.fieldset-checkbox__border {
+    transition: 0.35s;
+}
+
+.fieldset-checkbox__input:checked ~ .fieldset-checkbox__box .fieldset-checkbox__icon .fieldset-checkbox__border {
+    stroke: #1919EF; /* Синий цвет, когда отмечен */
+    transition: 0.35s;
+}
+
+.fieldset-checkbox__label {
+    font-size: 16px;
+    line-height: 125%;
+}
+
+.fieldset-checkbox__label-accept {
+    font-size: 12px;
+    line-height: 120%;
+    color: #9B9B9B;
+}

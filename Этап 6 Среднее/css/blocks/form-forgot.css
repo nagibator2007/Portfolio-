@@ -1,0 +1,83 @@
+.form-forgot__fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 28px 32px;
+    margin: 0;
+    border-radius: 12px;
+    border: 1px solid #CDCFDE80;
+    margin-bottom: 28px;
+}
+
+.form-forgot__custom-input {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 30px;
+}
+
+.form-forgot__radio {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form-forgot__radio-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+}
+
+.form-forgot__radio-icon .form-forgot__radio-dot {
+    opacity: 0;
+}
+  
+.form-forgot__radio:checked ~ .form-forgot__radio-box .form-forgot__radio-icon .form-forgot__radio-dot {
+    opacity: 1;
+}
+  
+.form-forgot__radio-icon .form-forgot__radio-border {
+    stroke: #CDCFDE;
+}
+  
+.form-forgot__radio:checked ~ .form-forgot__radio-box .form-forgot__radio-icon .form-forgot__radio-border {
+    stroke: #476BF0;
+    fill: #476BF0;
+}
+
+.form-forgot__radio:checked ~ .form-forgot__radio-box .form-forgot__radio-icon .form-forgot__radio-dot {
+    fill: #fff;
+}
+  
+.form-forgot__radio-icon .form-forgot__radio-dot {
+    transition: opacity 0.2s ease-in-out;
+} 
+
+.form-forgot__label {
+    position: static;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E222E;
+}
+
+.form-forgot__radio:hover + .form-forgot__radio-box svg  .form-forgot__radio-border{
+    stroke: #3356D7;
+}
+
+.form-forgot__radio:focus-visible + .form-forgot__radio-box svg  .form-forgot__radio-border{
+    stroke: #A0B4FF;
+}
+
+.form-forgot__custom-input:invalid .form-forgot__radio-border {
+    stroke: #F6514B;
+}
+
+.form-forgot__btn {
+    margin: 0;
+}

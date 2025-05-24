@@ -1,0 +1,21 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "blocks/btn.css";
+@import "blocks/link.css";
+@import "blocks/custom-input.css";
+@import "blocks/header.css";
+@import "blocks/footer.css";
+@import "blocks/form.css";
+@import "blocks/forgot.css";
+@import "blocks/form-forgot.css";
+@import "blocks/login.css";
+@import "blocks/registration.css";
+@import "blocks/form-reg.css";
+

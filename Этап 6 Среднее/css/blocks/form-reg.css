@@ -1,0 +1,60 @@
+
+.form-reg__fieldset {
+    display: grid;
+    grid-template-columns: 188px 188px;
+    gap: 20px 10px;
+    margin-bottom: 24px;
+}
+
+.form-reg__custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    gap: 20px;
+}
+
+.form-reg__checkbox-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form-reg__checkbox-box {
+    height: 20px;
+    width: 20px;
+}
+  
+.form-reg__checkbox-icon .form-reg__checkbox-tick {
+    opacity: 0;
+    transition: 0.35s;
+}
+  
+.form-reg__checkbox-input:checked ~ .form-reg__checkbox-box .form-reg__checkbox-icon .form-reg__checkbox-tick {
+   opacity: 1;
+   transition: 0.35s;
+}
+
+.form-reg__checkbox-border {
+    transition: 0.35s;
+}
+
+.form-reg__checkbox-input:checked ~ .form-reg__checkbox-box .form-reg__checkbox-icon .form-reg__checkbox-border {
+    fill: #476BF0; /* Синий цвет, когда отмечен */
+    stroke: #476BF0;
+    transition: 0.35s;
+}
+
+.form-reg__checkbox-label {
+    color: #1E222E;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form-reg__checkbox-label-blue {
+    color: #476BF0;
+}
+

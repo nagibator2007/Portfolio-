@@ -1,0 +1,29 @@
+.tariff-extra {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 0 28px;
+}
+
+.tariff-extra__wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.tariff-extra__description {
+    font-size: 14px;
+    line-height: 130%;
+    width: 156px;
+}
+
+.tariff-extra__link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tariff-extra__link-icon {
+    width: 10px;
+    height: 8px;
+}

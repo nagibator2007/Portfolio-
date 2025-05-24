@@ -1,0 +1,34 @@
+.link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #259DD6;
+}
+
+.link:hover {
+    color: #9D1881;
+}
+
+.link__solid {
+    color: #239DD6;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.link__solid:hover {
+    color: #9D1881;
+}
+
+.link__tariff {
+    color: #343033;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.link__tariff:hover {
+    color: #259DD6;
+}

@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Стартапам&nbsp;&mdash; Газпромбанк.тех</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="header__logo-link" href="#" aria-label="Вернуться на главную страницу">
+          <svg class="header__logo-image" width="354" height="19" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#logo-gazprombank-tex"></use>
+          </svg>
+        </a>
+        <nav class="header__navigation">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Вакансии
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                События
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Блог
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link header__link--active" href="#">
+                Стартапам
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Digital start
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header__social-link" href="#" aria-label="Перейти в группу Вконтакте">
+          <svg class="header__social-image" width="24" height="24" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-vkontakte"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="request" class="request">
+      <h1 class="visually-hidden">Форма отправки заявки для участия в&nbsp;программе</h1>
+      <div class="container">
+        <div class="request__wrapper">
+          <a class="request__back-link" href="#">
+            <svg class="request__back-image" width="46" height="14" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-left-arrow-next"></use>
+            </svg>
+            <span class="request__back-text">Назад</span>
+          </a>
+          <h2 class="request__heading">
+            Заполни заявку для участия в&nbsp;программе
+          </h2>
+          <p class="request__description">
+            Расскажи о&nbsp;своем проекте. Если он&nbsp;нам подходит, мы&nbsp;свяжемся с&nbsp;тобой для обсуждения
+            дальнейшей работы
+          </p>
+          <!-- Форма -->
+          <form action="#" class="application">
+            <h2 class="application__title">Расскажи о&nbsp;себе</h2>
+            <fieldset class="fieldset fieldset--myself">
+              <div class="custom-input custom-input--right">
+                <input class="custom-input__field" type="text" name="surname" placeholder="Фамилия*"
+                  aria-label="Фамилия" required>
+              </div>
+              <div class="custom-input custom-input--right">
+                <label class="custom-input__label" for="email">Почта*</label>
+                <input class="custom-input__field" id="email" type="email" name="email" placeholder="E-mail"
+                  aria-label="Фамилия" required>
+                <svg class="fieldset__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_53)">
+                    <path
+                      d="M12.9592 10.8301L11.2842 12.5108C10.6049 13.1924 9.40979 13.2071 8.71584 12.5108L7.04073 10.8301L1.02448 16.8659C1.24842 16.9694 1.49533 17.0312 1.75783 17.0312H18.2422C18.5047 17.0312 18.7515 16.9695 18.9754 16.8659L12.9592 10.8301Z"
+                      fill="#CACACA" />
+                    <path
+                      d="M18.2422 2.96875H1.75782C1.49532 2.96875 1.2484 3.03055 1.02454 3.1341L7.45333 9.58422C7.45375 9.58465 7.45426 9.58473 7.45469 9.58516C7.45512 9.58559 7.4552 9.58617 7.4552 9.58617L9.54555 11.6834C9.76758 11.9055 10.2325 11.9055 10.4545 11.6834L12.5445 9.58652C12.5445 9.58652 12.545 9.58559 12.5454 9.58516C12.5454 9.58516 12.5463 9.58465 12.5468 9.58422L18.9754 3.13406C18.7515 3.03047 18.5047 2.96875 18.2422 2.96875Z"
+                      fill="#CACACA" />
+                    <path
+                      d="M0.186953 3.95361C0.0710937 4.18791 0 4.44799 0 4.72658V15.2735C0 15.5521 0.0710156 15.8121 0.186914 16.0464L6.21359 10.0002L0.186953 3.95361Z"
+                      fill="#CACACA" />
+                    <path
+                      d="M19.813 3.95349L13.7864 10.0002L19.813 16.0465C19.9289 15.8122 20 15.5521 20 15.2734V4.72654C20 4.44787 19.9289 4.18779 19.813 3.95349Z"
+                      fill="#CACACA" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_53">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="custom-input custom-input--right">
+                <input class="custom-input__field" type="text" name="name" placeholder="Имя*" aria-label="Имя" required>
+              </div>
+              <div class="custom-input custom-input--right">
+                <label class="custom-input__label" for="date">Дата рождения*</label>
+                <input class="custom-input__field" type="text" id="date" name="date" placeholder="dd/mm/yyyy"
+                  aria-label="Дата рождения" required>
+                <svg class="fieldset__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.4166 3.16663H15.5V1.33329C15.5 1.09018 15.4034 0.85702 15.2315 0.685111C15.0596 0.513203 14.8264 0.416626 14.5833 0.416626C14.3402 0.416626 14.107 0.513203 13.9351 0.685111C13.7632 0.85702 13.6666 1.09018 13.6666 1.33329V3.16663H6.33331V1.33329C6.33331 1.09018 6.23674 0.85702 6.06483 0.685111C5.89292 0.513203 5.65976 0.416626 5.41665 0.416626C5.17353 0.416626 4.94037 0.513203 4.76847 0.685111C4.59656 0.85702 4.49998 1.09018 4.49998 1.33329V3.16663H3.58331C2.85397 3.16663 2.15449 3.45636 1.63877 3.97208C1.12304 4.48781 0.833313 5.18728 0.833313 5.91663V6.83329H19.1666V5.91663C19.1666 5.18728 18.8769 4.48781 18.3612 3.97208C17.8455 3.45636 17.146 3.16663 16.4166 3.16663Z"
+                    fill="#CACACA" />
+                  <path
+                    d="M0.833313 16.0001C0.833313 16.7294 1.12304 17.4289 1.63877 17.9446C2.15449 18.4604 2.85397 18.7501 3.58331 18.7501H16.4166C17.146 18.7501 17.8455 18.4604 18.3612 17.9446C18.8769 17.4289 19.1666 16.7294 19.1666 16.0001V8.66675H0.833313V16.0001Z"
+                    fill="#CACACA" />
+                </svg>
+              </div>
+              <div class="custom-input">
+                <input class="custom-input__field" type="text" name="lastname" placeholder="Отчество*"
+                  aria-label="Отчество" required>
+              </div>
+              <div class="custom-input">
+                <label class="custom-input__label" for="number">Телефон*</label>
+                <input class="custom-input__field" id="number" type="text" name="number"
+                  placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" aria-label="Номер телефона" required>
+                <svg class="fieldset__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_77)">
+                    <path
+                      d="M17.6956 12.8671C16.5731 12.8671 15.471 12.6916 14.4267 12.3464C13.9149 12.1719 13.2858 12.332 12.9735 12.6528L10.9121 14.2089C8.52143 12.9328 7.04884 11.4607 5.79014 9.08801L7.30049 7.08031C7.69289 6.68844 7.83364 6.116 7.66501 5.57889C7.3184 4.52902 7.14232 3.42745 7.14232 2.30453C7.14237 1.49333 6.48241 0.833374 5.67126 0.833374H2.30442C1.49327 0.833374 0.833313 1.49333 0.833313 2.30448C0.833313 11.6024 8.39763 19.1667 17.6956 19.1667C18.5067 19.1667 19.1667 18.5068 19.1667 17.6956V14.3382C19.1666 13.5271 18.5067 12.8671 17.6956 12.8671Z"
+                      fill="#CACACA" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_77">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </fieldset>
+            <h2 class="application__title application__title--xl-gap">Расскажи о&nbsp;компании</h2>
+            <fieldset class="fieldset fieldset--company">
+              <div class="fieldset__company-wrapper">
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" name="name-company" placeholder="Название компании*"
+                    aria-label="Название компании" required>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" name="sait-company" placeholder="Сайт компании*"
+                    aria-label="Сайт компании" required>
+                </div>
+                <div class="custom-input custom-input--xl">
+                  <textarea class="custom-input__field custom-input__textarea" name="description-company"
+                    placeholder="Описание компании*" aria-label="Описание компании" required></textarea>
+                </div>
+              </div>
+            </fieldset>
+            <h2 class="application__title application__title--xl-gap">Добавь ссылку на&nbsp;презентацию проекта</h2>
+            <fieldset class="fieldset">
+              <div class="custom-input">
+                <input class="custom-input__field" type="text" name="link" placeholder="Ссылка*" aria-label="Ссылка"
+                  required>
+                <svg class="fieldset__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_30)">
+                    <path
+                      d="M18.6271 1.37297C16.7964 -0.457651 13.8286 -0.457651 11.9979 1.37293L8.0802 5.29067C6.18664 7.1843 6.36195 10.2015 8.0802 11.9198C8.36793 12.2075 8.68629 12.4422 9.02246 12.6348L9.7375 11.9198C10.2065 11.4507 10.0414 10.9024 10.033 10.5068C9.93004 10.4338 9.82992 10.3549 9.7375 10.2625C8.85574 9.38083 8.81609 7.86934 9.7375 6.94793C9.87434 6.8111 13.5721 3.11332 13.6552 3.03028C14.5692 2.11625 16.0557 2.11625 16.9697 3.03028C17.8837 3.9443 17.8837 5.43082 16.9697 6.34485L14.3802 8.93442C14.455 9.34875 14.9045 10.3302 14.6733 11.9493C14.6846 11.9382 14.6981 11.9311 14.7093 11.9198L18.6271 8.00211C20.4576 6.17149 20.4576 3.2036 18.6271 1.37297Z"
+                      fill="#CACACA" />
+                    <path
+                      d="M12.2233 7.77662C11.9356 7.48889 11.6172 7.25428 11.2812 7.06158L10.5661 7.77662C10.0971 8.24561 10.2621 8.79393 10.2706 9.18959C10.3736 9.26256 10.4737 9.34143 10.5661 9.43385C11.4479 10.3156 11.4875 11.827 10.5661 12.7484C10.429 12.8856 6.4249 16.8896 6.34479 16.9697C5.43076 17.8838 3.94424 17.8838 3.03021 16.9697C2.11619 16.0557 2.11619 14.5692 3.03021 13.6552L5.92346 10.7619C5.84857 10.3476 5.39912 9.36612 5.63033 7.74705C5.61904 7.75815 5.60545 7.76537 5.5942 7.77658L1.37291 11.998C-0.457637 13.8286 -0.457637 16.7965 1.37291 18.6271C3.20354 20.4576 6.17139 20.4576 8.00201 18.6271L12.2233 14.4058C14.0818 12.5473 13.9802 9.53346 12.2233 7.77662Z"
+                      fill="#CACACA" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_30">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </div>
+            </fieldset>
+            <h2 class="application__title application__title--xs-gap">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.3286 7.60988C10.0714 7.60988 9.86786 7.54074 9.71786 7.40247C9.56786 7.2642 9.49286 7.08642 9.49286 6.86914C9.49286 6.61893 9.57857 6.41152 9.75 6.24691C9.92143 6.0823 10.15 6 10.4357 6C10.7214 6 10.9393 6.07243 11.0893 6.21728C11.2393 6.35556 11.3143 6.53004 11.3143 6.74074C11.3143 7.00412 11.2286 7.21482 11.0571 7.37284C10.8857 7.53086 10.6464 7.60988 10.3393 7.60988H10.3286ZM9.76071 9.44691L9 9.25926V8.59753L10.9607 8.38025H10.9821L11.2821 8.57778V13.3284L12 13.4074V14H9.01071V13.4074L9.76071 13.3185V9.44691Z"
+                  fill="#ACB5BD" />
+                <circle cx="10" cy="10" r="9.5" stroke="#ACB5BD" />
+              </svg>
+              Укажи направление работы твоего стартапа или проекта
+            </h2>
+            <fieldset class="fieldset fieldset-checkbox">
+              <div class="fieldset-checkbox__wrapper">
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="branches" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Сервисы для отделений</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="document" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Электронный документооборот</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="Speech" value="yes" checked>
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Речевые технологии</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="channel" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Каналы взаимодействия с&nbsp;клиентами</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="biometrics" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Идентификация и&nbsp;биометрия</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="investment" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Сервисы для инвестиций и&nbsp;работы
+                    с&nbsp;инвест.портфелем</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="loyalty" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Сервисы повышения лояльности и&nbsp;оптимизации клиентского
+                    пути</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="mortgage" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Ипотека</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="cybersecurity" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Антифрод и&nbsp;кибербезопасность</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="scoring" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Скоринг и&nbsp;андеррайтинг</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="HrTech" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">HrTech</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="EdTech" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">EdTech</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="lending" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Кредитование</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="carloans" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Автокредитование</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="insurance" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Страхование</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="clients" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Обогащение данных о&nbsp;клиентах</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="crm" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">CRM</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="bisness" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Сервисы для малого и&nbsp;среднего бизнеса</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="pfm" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">PFM</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="legal" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Юридический сервис</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="neobanking" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Необанкинг</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="marketing" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Digital Marketing</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="outflow" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Сервисы по&nbsp;работе с&nbsp;оттоком клиентов</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="attraction" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Привлечение новых клиентов</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="helpdesk" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Helpdesk</span>
+                </label>
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="education" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Корпоративное обучение</span>
+                </label> 
+                <label class="fieldset-checkbox__custom-input">
+                  <input class="fieldset-checkbox__input" type="checkbox" name="hiring" value="yes">
+                  <span class="fieldset-checkbox__box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="fieldset-checkbox__icon">
+                      <rect class="fieldset-checkbox__border" x="0.5" y="0.5" width="19" height="19" rx="3.5"
+                        stroke="#ACB5BD" />
+                      <g class="fieldset-checkbox__tick" clip-path="url(#clip0_1_91)">
+                        <path
+                          d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                          fill="#1919EF" />
+                      </g>
+                      <defs>
+                        <clipPath>
+                          <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="fieldset-checkbox__label">Найм</span>
+                </label>
+              </div>
+            </fieldset>
+            <h2 class="application__title application__title--xs-gap">Работал(а)&nbsp;ли ты&nbsp;раньше
+              с&nbsp;Газпромбанком?</h2>
+            <fieldset class="fieldset fieldset-radio">
+              <label class="fieldset-radio__custom-input">
+                <input class="fieldset-radio__input" type="radio" name="radio-find" value="yes">
+                <span class="fieldset-radio__box">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="fieldset-radio__icon">
+                    <circle class="radio-border" cx="10" cy="10" r="9.5" stroke="#ACB5BD" />
+                    <circle class="radio-dot" cx="10" cy="10" r="4" fill="#1919EF" />
+                  </svg>
+                </span>
+                <span class="fieldset-radio__label">Да</span>
+              </label>
+              <label class="fieldset-radio__custom-input">
+                <input class="fieldset-radio__input" type="radio" name="radio-find" value="no">
+                <span class="fieldset-radio__box">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="fieldset-radio__icon">
+                    <circle class="radio-border" cx="10" cy="10" r="9.5" stroke="#ACB5BD" />
+                    <circle class="radio-dot" cx="10" cy="10" r="4" fill="#1919EF" />
+                  </svg>
+                </span>
+                <span class="fieldset-radio__label">Нет</span>
+              </label>
+              <div class="custom-input">
+                <input class="custom-input__field" type="text" name="fullname" placeholder="ФИО сотрудника*"
+                  aria-label="ФИО" required>
+              </div>
+            </fieldset>
+            <h2 class="application__title application__title--xs-gap">Откуда узнал(а) о&nbsp;нас?</h2>
+            <fieldset class="fieldset fieldset-radio">
+              <label class="fieldset-radio__custom-input">
+                <input class="fieldset-radio__input" type="radio" name="radio-know" value="ivent" checked>
+                <span class="fieldset-radio__box">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="fieldset-radio__icon">
+                    <circle class="radio-border" cx="10" cy="10" r="9.5" stroke="#ACB5BD" />
+                    <circle class="radio-dot" cx="10" cy="10" r="4" fill="#1919EF" />
+                  </svg>
+                </span>
+                <span class="fieldset-radio__label">Мероприятие</span>
+              </label>
+              <label class="fieldset-radio__custom-input">
+                <input class="fieldset-radio__input" type="radio" name="radio-know" value="personal">
+                <span class="fieldset-radio__box">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="fieldset-radio__icon">
+                    <circle class="radio-border" cx="10" cy="10" r="9.5" stroke="#ACB5BD" />
+                    <circle class="radio-dot" cx="10" cy="10" r="4" fill="#1919EF" />
+                  </svg>
+                </span>
+                <span class="fieldset-radio__label">Сотрудник</span>
+              </label>
+              <div class="custom-input">
+                <input class="custom-input__field" type="text" name="fullname" placeholder="ФИО сотрудника*"
+                  aria-label="ФИО" value="Иванов Иван" required>
+              </div>
+            </fieldset>
+            <fieldset class="fieldset fieldset-textarea">
+              <div class="custom-input custom-input--xl">
+                <textarea class="custom-input__field custom-input__textarea" name="message" placeholder="Сообщение*"
+                  aria-label="Сообщение"></textarea>
+              </div>
+            </fieldset>
+            <label class="application__custom-input application__custom-input--gap">
+              <input class="application__input" type="checkbox" name="accept" value="accept">
+              <span class="application__box">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="application__icon">
+                  <rect class="application__border" x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="#ACB5BD" />
+                  <g class="application__tick" clip-path="url(#clip0_1_91)">
+                    <path
+                      d="M14.8536 6.47452C14.6583 6.27925 14.3417 6.27925 14.1465 6.47452L8.15614 12.4649L5.85356 10.1623C5.65831 9.96704 5.34175 9.96706 5.14646 10.1623C4.95118 10.3576 4.95118 10.6741 5.14646 10.8694L7.80259 13.5255C7.99778 13.7207 8.31458 13.7206 8.5097 13.5255L14.8536 7.18163C15.0488 6.98637 15.0488 6.66979 14.8536 6.47452Z"
+                      fill="#1919EF" />
+                  </g>
+                  <defs>
+                    <clipPath>
+                      <rect width="10" height="10" fill="white" transform="translate(5 5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+              <span class="application__label application__label-accept">Даю согласие на&nbsp;обработку персональных
+                данных</span>
+            </label>
+            <div class="application__wrapper-btn">
+              <button class="btn" type="submit">Отправить</button>
+            </div>
+          </form>
+          <a class="request__scroll" href="#request">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_258)">
+                <path
+                  d="M12.1853 0.0380154C11.9983 -0.0392818 11.7832 0.00374985 11.6403 0.146999L2.6403 9.147C2.44844 9.34561 2.45397 9.66216 2.65258 9.85402C2.84636 10.0411 3.15353 10.0411 3.34727 9.85402L11.4943 1.707L11.4943 23.5C11.4943 23.7761 11.7182 24 11.9943 24C12.2705 24 12.4944 23.7761 12.4944 23.5L12.4944 1.707L20.6403 9.85298C20.8322 10.0516 21.1487 10.0571 21.3474 9.86527C21.546 9.67341 21.5515 9.35691 21.3596 9.15825C21.3556 9.15408 21.3515 9.15 21.3474 9.14597L12.3474 0.145969C12.3009 0.0997505 12.2459 0.0630474 12.1853 0.0380154Z"
+                  fill="#1919EF" />
+                <path
+                  d="M21.4944 9.50007C21.4949 9.77621 21.2714 10.0005 20.9952 10.001C20.8621 10.0012 20.7344 9.94834 20.6404 9.85407L11.9944 1.20704L3.3484 9.85407C3.14979 10.0459 2.83324 10.0404 2.64138 9.84179C2.45426 9.64801 2.45426 9.34084 2.64138 9.1471L11.6414 0.147101C11.8366 -0.0480862 12.1531 -0.0480862 12.3484 0.147101L21.3484 9.1471C21.4419 9.24076 21.4944 9.36769 21.4944 9.50007Z"
+                  fill="#1919EF" />
+                <path
+                  d="M12.4944 0.500015L12.4944 23.5C12.4944 23.7761 12.2705 24 11.9944 24C11.7183 24 11.4944 23.7761 11.4944 23.5L11.4944 0.499968C11.4944 0.223827 11.7183 -4.57764e-05 11.9944 -4.57764e-05C12.2705 1.90735e-06 12.4944 0.223875 12.4944 0.500015Z"
+                  fill="#1919EF" />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_258">
+                  <rect width="24" height="24" fill="white" transform="matrix(0 -1 1 0 0 24)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__box">
+          <a class="footer__logo-link" href="#" aria-label="Вернуться на главную страницу">
+            <svg class="footer__logo-image" width="354" height="19" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#logo-gazprombank-tex" />
+            </svg>
+          </a>
+          <p class="footer__copyright">
+            &copy;&nbsp;1990-2024, Банк ГПБ (АО) Генеральная лицензия Банка России &#8470;&nbsp;354, 117420, г. Москва,
+            ул. Наметкина, д.&nbsp;16, корпус 1. <a class="footer__copyright-link" href="#">Политика обработки
+              и&nbsp;защиты персональных данных</a>
+          </p>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <ul class="footer__inner-list">
+              <li class="footer__inner-item">
+                <a class="footer__link" href="#">
+                  Вакансии
+                </a>
+              </li>
+              <li class="footer__inner-item">
+                <a class="footer__link" href="#">
+                  События
+                </a>
+              </li>
+              <li class="footer__inner-item">
+                <a class="footer__link" href="#">
+                  Блог
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <ul class="footer__inner-list">
+              <li class="footer__inner-item">
+                <a class="footer__link" href="#">
+                  Стартапам
+                </a>
+              </li>
+              <li class="footer__inner-item">
+                <a class="footer__link" href="#">
+                  Digital start
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              Вконтакте
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

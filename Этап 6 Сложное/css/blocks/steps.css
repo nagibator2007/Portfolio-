@@ -1,0 +1,46 @@
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 36px;
+}
+
+.steps__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.steps__step-number {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 114.99999999999999%;
+    letter-spacing: -0.28px;
+    background-color: #F0F0F0;
+    color: #858385;
+    border-radius: 60px;
+    padding: 4px 15px 4px 14px;
+}
+
+.steps__step-number--blue {
+    background-color: #239DD6;
+    color: #fff;
+}
+
+.steps__step-description {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    color: #858385;
+}
+
+.steps__step-description--active {
+    color: #343033;
+}
+
+.steps__line {
+    height: 2px;
+    width: 86px;
+    background-color: #F0F0F0;
+}

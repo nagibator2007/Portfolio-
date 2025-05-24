@@ -1,0 +1,17 @@
+.tariff {
+    margin-bottom: 100px;
+}
+
+.tariff__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0,96px;
+    line-height: 57px;
+    margin: 0 0 60px;
+}
+
+.tariff__title-decoration {
+    color: #259DD6;
+}

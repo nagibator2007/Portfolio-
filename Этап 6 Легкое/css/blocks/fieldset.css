@@ -1,0 +1,47 @@
+.fieldset {
+    padding: 0;
+    margin: 0 0 40px;
+    border: none;
+}
+
+.fieldset--myself {
+    display: grid;
+    grid-template-columns: 560px 560px;
+    gap: 0 80px;
+}
+
+.fieldset--myself .custom-input {
+    gap: 4px;
+}
+
+.custom-input__label {
+    color: #1919EF;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.fieldset--company {
+    display: flex;
+    gap: 80px 60px;
+}
+
+.fieldset__company-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 560px);
+    gap: 60px 80px;
+}
+
+.fieldset__title--xl-gap {
+    margin: 0 0 60px;
+}
+
+.fieldset__title--xs-gap {
+    margin: 0 0 28px;
+}
+
+.fieldset__icon {
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+}
+

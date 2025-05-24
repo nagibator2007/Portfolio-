@@ -1,0 +1,70 @@
+.application__title {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 0 0 42px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.application__custom-input {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    gap: 20px;
+}
+
+.application__custom-input--gap{
+    margin-bottom: 80px;
+}
+
+.application__input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.application__box {
+    height: 20px;
+    width: 20px;
+}
+
+.application__icon .application__tick {
+    opacity: 0;
+    transition: 0.35s;
+}
+
+.application__input:checked ~ .application__box .application__icon .fieldset-checkbox__tick {
+    opacity: 1;
+    transition: 0.35s;
+}
+
+.application__input:checked ~ .application__box .application__icon .application__border {
+    stroke: #1919EF; /* Синий цвет, когда отмечен */
+    transition: 0.35s;
+}
+
+.application__border {
+    transition: 0.35s;
+}
+
+.application__wrapper-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.application__label {
+    font-size: 16px;
+    line-height: 125%;
+}
+
+.application__label-accept {
+    font-size: 12px;
+    line-height: 120%;
+    color: #9B9B9B;
+}

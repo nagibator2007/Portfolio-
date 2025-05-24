@@ -1,0 +1,23 @@
+.link:hover {
+    transition: 0.35s;
+    color: #3356D7;
+
+}
+
+.link:hover svg path{
+    fill: #3356D7;
+    transition: 0.35s;
+}
+
+.link--forget {
+    color: #1E222E;
+    margin-bottom: 32px;
+    text-align: center;
+    background: none;
+    padding: 0;
+}
+
+.link--registration {
+    text-align: center;
+    color: #476BF0;
+}
