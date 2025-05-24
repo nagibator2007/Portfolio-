@@ -1,0 +1,11 @@
+.pay {
+    padding: 0 0 100px;
+}
+
+.pay__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 40px;
+}

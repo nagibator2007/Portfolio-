@@ -1,0 +1,12 @@
+.advantages {
+  padding: 100px 0 100px 0;
+}
+
+.advantages__main-list {
+  display: grid;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 100px;
+}

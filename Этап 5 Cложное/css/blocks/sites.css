@@ -1,0 +1,44 @@
+.sites {
+    padding: 0 0 100px;
+}
+
+.sites__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0 0 40px;
+}
+
+.sites__title-transfer {
+    display: block;
+}
+
+.sites__list {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 286px);
+    gap: 32px;
+    list-style: none;
+}
+
+.sites__item-img {
+    background-color: #F6F6F6;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.sites__item-title {
+    margin: 0 0 8px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.sites__item-description {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696E82;
+}
