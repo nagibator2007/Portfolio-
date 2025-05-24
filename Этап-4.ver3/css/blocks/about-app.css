@@ -1,0 +1,45 @@
+.about-app {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-app__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-app__title {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-app__text {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 32px;
+}
+
+.about-app__links {
+    display: flex;
+    gap: 12px;
+}
+
+.about-app__link {
+    text-decoration: none;
+    background-color: #EDEEEF;
+    color: #1E222E;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 14px 45px;
+}
+
+.about-app__link--secondary {
+    background-color: #1E222E;
+    color: #fff;
+    padding: 14px 56px;
+}
