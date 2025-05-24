@@ -1,0 +1,15 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+
+  @include vp-1023 {
+    font-size: 32px;
+  padding: 0 30px;
+  }
+
+  @include vp-767 {
+    font-size: 20px;
+  padding: 0 15px;
+  }
+}

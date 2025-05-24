@@ -1,0 +1,53 @@
+.btn {
+  outline: none;
+  display: block;
+  border-radius: 8px;
+  padding: 10px;
+  color: $color-white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: $color-royal-blue;
+  transition: background-color 0.35s;
+
+  &:hover {
+    background-color: $color-free-speech-blue;
+    transition: background-color 0.35s;
+  }
+
+  &:focus-visible {
+    background-color: $color-free-speech-blue;
+    transition: background-color 0.35s;
+  }
+
+  &:disabled {
+    color: $color-manatee-2;
+    background-color: $color-white-smoke;
+  }
+
+  &--invert {
+    color: $color-royal-blue;
+    background-color: $color-white;
+
+    &:hover {
+      color: $color-royal-blue;
+      background-color: $color-solitude-3;
+    }
+
+    &:focus-visible {
+      color: $color-royal-blue;
+      background-color: $color-solitude-3;
+    }
+  }
+
+  @include vp-1023 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  @include vp-767 {
+
+  }
+}
