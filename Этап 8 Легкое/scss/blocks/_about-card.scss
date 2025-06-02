@@ -1,0 +1,192 @@
+.about-card {
+  position: relative;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  gap: 0 28px;
+  border-radius: 16px;
+  background-color: $color-white;
+  box-shadow: 0 6px 20px 0 $color-gulf-blue-2;
+  outline: none;
+
+  &:hover  {
+    background-color: $color-solitude-1;
+    transition: background-color 0.35s;
+  }
+
+  &:focus-visible {
+    outline: none;
+    background-color: $color-solitude-1;
+    transition: background-color 0.35s;
+  }
+
+  @include vp-1024 {
+    height: 100%;
+    min-height: 240px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px;
+    background-color: $color-solitude-2;
+    box-shadow: none;
+  }
+
+  @include vp-1304 {
+    min-height: 300px;
+  }
+
+
+  &__description {
+    display: none;
+    font-size: 18px;
+    line-height: 24px;
+
+    @include vp-1024 {
+      display: block;
+    }
+  }
+
+  &--large {
+    padding: 20px;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: $color-solitude-2;
+    box-shadow: none;
+
+    &:hover {
+      background-color: $color-solitude-5;
+      transition: background-color 0.35s;
+    }
+
+    &:hover .about-card__arrow {
+      background-color: $color-link-water;
+      transition: background-color 0.35s;
+    }
+
+    &:focus-visible .about-card__arrow {
+      outline: none;
+      background-color: $color-link-water;
+      transition: background-color 0.35s;
+    }
+
+    @include vp-768 {
+      padding: 28px;
+    }
+
+    @include vp-1024 {
+      padding: 32px;
+      min-height: 352px;
+      justify-content: space-between;
+    }
+
+    .about-card__title {
+      margin: 0;
+      max-width: 150px;
+      font-size: 18px;
+      line-height: 22px;
+      z-index: 5;
+
+      @media (min-width: 480px) {
+        max-width: 200px;
+      }
+
+      @include vp-768 {
+        max-width: 200px;
+      }
+
+      @include vp-1024 {
+        max-width: 430px;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__arrow {
+    display: none;
+
+    @include vp-1024 {
+      display: flex;
+      background-color: $color-solitude-4;
+      padding: 14px;
+      border-radius: 8px;
+    }
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    color: $color-black-russian;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    @include vp-1024 {
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 600;
+    }
+  }
+
+  &__image-small {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+
+    @media (min-width: 480px) {
+      right: 0px;
+      top: 20px;
+    }
+
+    @include vp-768 {
+      top: 40px;
+      right: 20px;
+    }
+
+    @include vp-1024 {
+      top: 100px;
+      right: 20px;
+      width: 120px;
+    }
+
+    @include vp-1304 {
+      top: auto;
+      right: 20px;
+      bottom: 40px;
+    }
+  }
+
+  &__image-large {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+
+    @media (min-width: 480px) {
+      right: 80px;
+      bottom: 10px;
+    }
+
+    @include vp-768 {
+      right: 110px;
+      bottom: 20px;
+    }
+
+    @include vp-1024 {
+      bottom: 32px;
+      right: 150px;
+      width: 240px;
+    }
+
+    @include vp-1304 {
+      right: 60px;
+      bottom: 20px;
+    }
+  }
+}
