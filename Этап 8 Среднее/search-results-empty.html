@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Результаты поиска&nbsp;&mdash; Газпромбанк</title>
+</head>
+
+<body>
+  <!-- Модификатор для поиска header--search -->
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <svg class="header__icon-decor" width="24" height="24" aria-hidden="true">
+          <use xlink:href="images/sprite.svg#icon-decor"></use>
+        </svg>
+        <a class="header__logo-link" href="#" aria-label="Ссылка на главную страницу">
+          <svg class="header__logo-image" width="188" height="40" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#logo-gazprombank"></use>
+          </svg>
+        </a>
+        <div class="header__links">
+          <a class="header__link" href="#">
+            Частным клиентам
+          </a>
+          <a class="header__link header__link--light" href="#">
+            Private Banking
+          </a>
+          <a class="header__link header__link--light" href="#">
+            МСБ
+          </a>
+        </div>
+        <div class="header__links">
+          <button class="header__link header__link--active">
+            Москва
+          </button>
+          <a class="header__link" href="#">
+            Офисы и&nbsp;банкоматы
+          </a>
+        </div>
+        <button class="header__btn-search btn-icon" aria-label="Открыть поиск">
+          <svg class="btn-icon__icon" width="24" height="24" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-search"></use>
+          </svg>
+        </button>
+        <a class="header__login btn" href="#">
+          Войти
+        </a>
+        <button class="header__burger btn-icon" aria-label="Открыть меню">
+          <svg class="btn-icon__icon" width="24" height="24" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="header__search">
+      <div class="container">
+        <div class="header__search-wrapper">
+          <form class="search-form" action="/" method="post" tabindex="0">
+            <div class="search-form__wrapper">
+              <input class="search-form__input" id="search-header__input" type="search" name="search" value="вжух"
+                aria-label="Поиск">
+              <button class="search-form__reset" type="reset" aria-label="Очистить поле поиска">
+                <svg class="search-form__image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M18.7179 5.28306C18.8584 5.42369 18.9373 5.61431 18.9373 5.81306C18.9373 6.01181 18.8584 6.20244 18.7179 6.34306L13.0599 12.0001L18.7169 17.6571C18.8535 17.7986 18.929 17.9881 18.9272 18.1847C18.9254 18.3814 18.8464 18.5694 18.7073 18.7084C18.5682 18.8474 18.38 18.9262 18.1834 18.9278C17.9867 18.9294 17.7973 18.8537 17.6559 18.7171L11.9999 13.0621L6.34293 18.7191C6.27371 18.7907 6.19092 18.8478 6.0994 18.887C6.00788 18.9263 5.90946 18.9469 5.80987 18.9477C5.71029 18.9486 5.61154 18.9295 5.51938 18.8918C5.42723 18.854 5.34352 18.7983 5.27313 18.7278C5.20274 18.6574 5.14709 18.5736 5.10943 18.4814C5.07176 18.3893 5.05283 18.2905 5.05374 18.1909C5.05465 18.0913 5.07539 17.9929 5.11474 17.9014C5.15409 17.8099 5.21126 17.7272 5.28293 17.6581L10.9379 12.0001L5.28193 6.34306C5.14537 6.20154 5.06987 6.01206 5.07167 5.81541C5.07347 5.61876 5.15243 5.43069 5.29156 5.2917C5.43068 5.15271 5.61883 5.07392 5.81548 5.0723C6.01212 5.07069 6.20154 5.14637 6.34293 5.28306L11.9999 10.9391L17.6569 5.28306C17.7976 5.14261 17.9882 5.06372 18.1869 5.06372C18.3857 5.06372 18.5763 5.14261 18.7169 5.28306H18.7179Z"
+                    fill="#A3A7BC" />
+                </svg>
+              </button>
+              <button class="search-form__submit" type="button" aria-label="Кнопка поиска">
+                <svg class="search-form__image" width="24" height="24" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M14.5547 15.9692C13.0972 17.0687 11.2768 17.5744 9.46103 17.3843C7.64523 17.1941 5.96915 16.3223 4.77101 14.9447C3.57286 13.5672 2.94186 11.7864 3.00534 9.96175C3.06882 8.13713 3.82205 6.40451 5.11303 5.11352C6.40402 3.82254 8.13664 3.06931 9.96126 3.00583C11.7859 2.94235 13.5667 3.57335 14.9442 4.77149C16.3218 5.96964 17.1936 7.64572 17.3838 9.46152C17.5739 11.2773 17.0682 13.0976 15.9687 14.5552L20.7047 19.2912C20.8923 19.4787 20.9978 19.733 20.9979 19.9983C20.998 20.2636 20.8927 20.518 20.7052 20.7057C20.5177 20.8933 20.2633 20.9988 19.998 20.9989C19.7328 20.999 19.4783 20.8937 19.2907 20.7062L14.5547 15.9692ZM15.9227 10.2112C15.9227 10.9612 15.7749 11.7039 15.4879 12.3969C15.2009 13.0898 14.7802 13.7194 14.2498 14.2498C13.7195 14.7802 13.0898 15.2009 12.3969 15.4879C11.7039 15.7749 10.9612 15.9227 10.2112 15.9227C9.46113 15.9227 8.71843 15.7749 8.02548 15.4879C7.33253 15.2009 6.7029 14.7802 6.17253 14.2498C5.64217 13.7194 5.22147 13.0898 4.93444 12.3969C4.64741 11.7039 4.49967 10.9612 4.49967 10.2112C4.49967 8.69638 5.10142 7.24364 6.17253 6.17252C7.24365 5.10141 8.69639 4.49966 10.2112 4.49966C11.726 4.49966 13.1787 5.10141 14.2498 6.17252C15.3209 7.24364 15.9227 8.69638 15.9227 10.2112Z"
+                    fill="#A3A7BC" />
+                </svg>
+              </button>
+            </div>
+            <button class="search-form__btn" type="button">Найти</button>
+          </form>
+          <ul class="header__suggestions-list">
+            <li class="header__suggestion"><a class="header__suggestion-link" href="#">Что входит в&nbsp;Привилегии?</a>
+            </li>
+            <li class="header__suggestion"><a class="header__suggestion-link" href="#">Курсы валют</a></li>
+            <li class="header__suggestion"><a class="header__suggestion-link" href="#">Где скачать приложение?</a></li>
+            <li class="header__suggestion"><a class="header__suggestion-link" href="#">Рефинансирование</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__link">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <span class="breadcrumbs__link">Результаты поиска</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <section class="search">
+      <div class="container">
+        <h1 class="search__title">Результаты поиска</h1>
+        <form class="search-form" action="/" method="post" tabindex="0">
+          <div class="search-form__wrapper">
+            <input class="search-form__input" id="search__input" type="search" name="search" value="вжух"
+              aria-label="Поиск">
+            <button class="search-form__reset" type="reset" aria-label="Очистить поле поиска">
+              <svg class="search-form__image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18.7179 5.28306C18.8584 5.42369 18.9373 5.61431 18.9373 5.81306C18.9373 6.01181 18.8584 6.20244 18.7179 6.34306L13.0599 12.0001L18.7169 17.6571C18.8535 17.7986 18.929 17.9881 18.9272 18.1847C18.9254 18.3814 18.8464 18.5694 18.7073 18.7084C18.5682 18.8474 18.38 18.9262 18.1834 18.9278C17.9867 18.9294 17.7973 18.8537 17.6559 18.7171L11.9999 13.0621L6.34293 18.7191C6.27371 18.7907 6.19092 18.8478 6.0994 18.887C6.00788 18.9263 5.90946 18.9469 5.80987 18.9477C5.71029 18.9486 5.61154 18.9295 5.51938 18.8918C5.42723 18.854 5.34352 18.7983 5.27313 18.7278C5.20274 18.6574 5.14709 18.5736 5.10943 18.4814C5.07176 18.3893 5.05283 18.2905 5.05374 18.1909C5.05465 18.0913 5.07539 17.9929 5.11474 17.9014C5.15409 17.8099 5.21126 17.7272 5.28293 17.6581L10.9379 12.0001L5.28193 6.34306C5.14537 6.20154 5.06987 6.01206 5.07167 5.81541C5.07347 5.61876 5.15243 5.43069 5.29156 5.2917C5.43068 5.15271 5.61883 5.07392 5.81548 5.0723C6.01212 5.07069 6.20154 5.14637 6.34293 5.28306L11.9999 10.9391L17.6569 5.28306C17.7976 5.14261 17.9882 5.06372 18.1869 5.06372C18.3857 5.06372 18.5763 5.14261 18.7169 5.28306H18.7179Z"
+                  fill="#A3A7BC" />
+              </svg>
+            </button>
+            <button class="search-form__submit" type="submit" aria-label="Кнопка поиска">
+              <svg class="search-form__image" width="24" height="24" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14.5547 15.9692C13.0972 17.0687 11.2768 17.5744 9.46103 17.3843C7.64523 17.1941 5.96915 16.3223 4.77101 14.9447C3.57286 13.5672 2.94186 11.7864 3.00534 9.96175C3.06882 8.13713 3.82205 6.40451 5.11303 5.11352C6.40402 3.82254 8.13664 3.06931 9.96126 3.00583C11.7859 2.94235 13.5667 3.57335 14.9442 4.77149C16.3218 5.96964 17.1936 7.64572 17.3838 9.46152C17.5739 11.2773 17.0682 13.0976 15.9687 14.5552L20.7047 19.2912C20.8923 19.4787 20.9978 19.733 20.9979 19.9983C20.998 20.2636 20.8927 20.518 20.7052 20.7057C20.5177 20.8933 20.2633 20.9988 19.998 20.9989C19.7328 20.999 19.4783 20.8937 19.2907 20.7062L14.5547 15.9692ZM15.9227 10.2112C15.9227 10.9612 15.7749 11.7039 15.4879 12.3969C15.2009 13.0898 14.7802 13.7194 14.2498 14.2498C13.7195 14.7802 13.0898 15.2009 12.3969 15.4879C11.7039 15.7749 10.9612 15.9227 10.2112 15.9227C9.46113 15.9227 8.71843 15.7749 8.02548 15.4879C7.33253 15.2009 6.7029 14.7802 6.17253 14.2498C5.64217 13.7194 5.22147 13.0898 4.93444 12.3969C4.64741 11.7039 4.49967 10.9612 4.49967 10.2112C4.49967 8.69638 5.10142 7.24364 6.17253 6.17252C7.24365 5.10141 8.69639 4.49966 10.2112 4.49966C11.726 4.49966 13.1787 5.10141 14.2498 6.17252C15.3209 7.24364 15.9227 8.69638 15.9227 10.2112Z"
+                  fill="#A3A7BC" />
+              </svg>
+            </button>
+          </div>
+          <button class="search-form__btn" type="submit" aria-label="Кнопка поиска">Найти</button>
+        </form>
+        <ul class="suggestions-list">
+          <li class="suggestions-list__item"><a class="suggestions-list__link" href="#">Что входит
+              в&nbsp;Привилегии?</a>
+          </li>
+          <li class="suggestions-list__item"><a class="suggestions-list__link" href="#">Курсы валют</a></li>
+          <li class="suggestions-list__item"><a class="suggestions-list__link" href="#">Где скачать приложение?</a></li>
+          <li class="suggestions-list__item"><a class="suggestions-list__link" href="#">Рефинансирование</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="not-found">
+      <div class="container">
+        <div class="not-found__wrapper">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="images/search-desktop.png 1x, images/search-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="images/search-tablet.png 1x, images/search-tablet@2x.png 2x">
+            <img src="images/search-mobile.png" alt="Ничего не найдено" srcset="images/search-mobile@2x.png 2x">
+          </picture>
+          <div class="not-found__text">
+            <h2 class="not-found__title">Ничего не&nbsp;нашлось</h2>
+            <span class="not-found__description">Попробуйте изменить запрос</span>
+          </div>
+
+          <div class="cookie">
+            <p class="cookie__text">Мы&nbsp;обрабатываем файлы cookie, чтобы улучшить работу сайта. Оставаясь
+              на&nbsp;нашем сайте,
+              вы&nbsp;соглашаетесь с&nbsp;<a href="#" class="cookie__text cookie__text--blue">Политикой пользовательских
+                данных</a>.
+              Если вы&nbsp;хотите запретить обработку файлов cookie, отключите cookie в&nbsp;настройках вашего браузера
+            </p>
+            <div class="cookie__line"></div>
+            <button class="cookie__btn-close" type="button">
+              <svg class="cookie__icon-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18.7179 5.28306C18.8584 5.42369 18.9373 5.61431 18.9373 5.81306C18.9373 6.01181 18.8584 6.20244 18.7179 6.34306L13.0599 12.0001L18.7169 17.6571C18.8535 17.7986 18.929 17.9881 18.9272 18.1847C18.9254 18.3814 18.8464 18.5694 18.7073 18.7084C18.5682 18.8474 18.38 18.9262 18.1834 18.9278C17.9867 18.9294 17.7973 18.8537 17.6559 18.7171L11.9999 13.0621L6.34293 18.7191C6.27371 18.7907 6.19092 18.8478 6.0994 18.887C6.00788 18.9263 5.90946 18.9469 5.80987 18.9477C5.71029 18.9486 5.61154 18.9295 5.51938 18.8918C5.42723 18.854 5.34352 18.7983 5.27313 18.7278C5.20274 18.6574 5.14709 18.5736 5.10943 18.4814C5.07176 18.3893 5.05283 18.2905 5.05374 18.1909C5.05465 18.0913 5.07539 17.9929 5.11474 17.9014C5.15409 17.8099 5.21126 17.7272 5.28293 17.6581L10.9379 12.0001L5.28193 6.34306C5.14537 6.20154 5.06987 6.01206 5.07167 5.81541C5.07347 5.61876 5.15243 5.43069 5.29156 5.2917C5.43068 5.15271 5.61883 5.07392 5.81548 5.0723C6.01212 5.07069 6.20154 5.14637 6.34293 5.28306L11.9999 10.9391L17.6569 5.28306C17.7976 5.14261 17.9882 5.06372 18.1869 5.06372C18.3857 5.06372 18.5763 5.14261 18.7169 5.28306H18.7179Z"
+                  fill="#A3A7BC" />
+              </svg>
+            </button>
+          </div>
+          <a href="#" class="not-found__like-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+              aria-label="Лайк">
+              <circle class="not-found__like-circle" cx="24" cy="24" r="24" fill="#1E222E" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M33.52 30.947C33.17 32.025 32.996 32.564 32.537 33.053C32.302 33.303 31.938 33.568 31.627 33.714C31.02 34 30.357 34 29.033 34H16.2C15.545 34 15.218 34 14.977 33.853C14.8425 33.7705 14.7294 33.6575 14.647 33.523C14.5 33.283 14.5 32.955 14.5 32.3V23.054C14.5 22.399 14.5 22.072 14.647 21.831C14.7294 21.6965 14.8425 21.5834 14.977 21.501C15.218 21.354 15.545 21.354 16.2 21.354H18.5C21.537 21.354 22.268 16.827 22.444 14.647C22.507 13.863 22.741 13.322 23.626 13.282C24.481 13.244 25.651 13.476 26.5 14.75C27.848 16.772 27.52 18.407 27.042 20.793C27.013 20.935 27.059 21 27.207 21H29.521C31.429 21 32.383 21 33.118 21.465C33.5239 21.7304 33.8641 22.0847 34.113 22.501C34.547 23.254 34.513 24.1 34.443 25.791C34.3812 27.5447 34.0704 29.2807 33.52 30.947ZM25.956 17.677C25.977 18.433 25.818 19.267 25.57 20.504C25.515 20.7467 25.5161 20.9987 25.5732 21.2409C25.6304 21.4831 25.742 21.709 25.8997 21.9015C26.0574 22.094 26.2569 22.248 26.4831 22.3517C26.7093 22.4554 26.9562 22.5061 27.205 22.5C27.977 22.494 28.749 22.5 29.521 22.5C30.506 22.5 31.131 22.502 31.607 22.55C32.051 22.596 32.218 22.67 32.316 22.732C32.495 22.846 32.707 23.067 32.813 23.251C32.981 23.542 33.02 23.868 32.944 25.731C32.8881 27.348 32.6019 28.9488 32.094 30.485C31.715 31.651 31.628 31.83 31.444 32.026C31.31 32.1592 31.1562 32.2708 30.988 32.357C30.753 32.467 30.488 32.5 29.033 32.5C25.689 32.5 22.344 32.508 19 32.505V22.827C21.135 22.591 22.318 20.863 22.93 19.394C23.603 17.777 23.845 15.922 23.938 14.784C25.302 14.874 25.923 16.491 25.956 17.677ZM18 22.853V32.504C17.333 32.504 16.667 32.502 16 32.5C15.99 29.285 15.99 26.069 16 22.854C16.667 22.852 17.333 22.853 18 22.854V22.853Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+        <div class="pagination">
+          <div class="container">
+            <div class="pagination__yandex">
+              <span class="pagination__yandex-description">Поисковая технология</span>
+              <picture>
+                <img class="pagination__yandex-image" width="66" height="20" src="images/yandex-logo.png"
+                  alt="Поисковая система Яндекс" srcset="images/yandex-logo@2x.png 2x">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__left">
+          <a class="footer__logo-link" href="#" aria-label="Ссылка на главную страницу">
+            <svg class="footer__logo-image" width="188" height="40" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#logo-gazprombank"></use>
+            </svg>
+          </a>
+          <a class="footer__app" href="#">
+            <img class="footer__app-icon" width="48" height="48" src="images/icon-gpb-app.svg"
+              alt="Логотип приложения Газпромбанка">
+            <p class="footer__app-text">
+              <span class="footer__app-name">
+                Газпромбанк
+              </span>
+              <span class="footer__app-platform">
+                для Android
+              </span>
+            </p>
+          </a>
+          <div class="footer__contacts">
+            <div class="footer__phone">
+              <span class="footer__phone-text">
+                Бесплатно по&nbsp;России
+              </span>
+              <a class="footer__phone-link" href="tel:88001000701">
+                8&nbsp;800&nbsp;100 07 01
+              </a>
+            </div>
+            <div class="footer__phone">
+              <span class="footer__phone-text">
+                Бесплатно с&nbsp;мобильных
+              </span>
+              <a class="footer__phone-link" href="tel:400">
+                400
+              </a>
+            </div>
+          </div>
+          <div class="footer__feedback">
+            <span class="footer__feedback-text">
+              Есть жалобы и&nbsp;предложения?
+            </span>
+            <button class="footer__feedback-btn btn btn--tertiary" type="button">
+              Обратная связь
+            </button>
+          </div>
+          <div class="footer__location">
+            <span class="footer__location-text">
+              Ваше местоположение
+            </span>
+            <a class="footer__location-link" href="#">
+              <svg class="footer__location-icon" width="16" height="16" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-location"></use>
+              </svg>
+              <span>Москва</span>
+            </a>
+          </div>
+        </div>
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              О&nbsp;газпромбанке
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Пресс-центр
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Документы и&nbsp;тарифы
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Закупки
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Реквизиты
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Комплаенс
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Противодействие коррупции
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Аналитика
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Аресты и&nbsp;взыскания с&nbsp;банковских счетов
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Сведения о&nbsp;наличии счетов и&nbsp;другой информации
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Информация для нотариусов
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Направление обращений финансовому уполномоченному
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Карьера в&nbsp;Газпромбанке
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Кредитные карты
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">
+              Потребительские кредиты
+            </a>
+          </li>
+        </ul>
+        <div class="footer__right">
+          <div class="footer__policy">
+            <a class="footer__policy-link" href="#">
+              Информация о&nbsp;процентных ставках по&nbsp;договорам банковского вклада с&nbsp;физическими лицами
+            </a>
+            <a class="footer__policy-link" href="#">
+              Раскрытие информации профессиональным участником рынка ценных бумаг
+            </a>
+            <a class="footer__policy-link" href="#">
+              Информация для клиентов по&nbsp;Федеральному закону &#8470;&nbsp;115-ФЗ
+            </a>
+            <a class="footer__policy-link" href="#">
+              Частная политика обработки и&nbsp;защиты персональных данных в&nbsp;Газпромбанке
+            </a>
+            <a class="footer__policy-link" href="#">
+              Раскрытие информации на&nbsp;сайте ООО &laquo;Интерфакс-ЦРКИ&raquo;
+            </a>
+            <a class="footer__policy-link" href="#">
+              Сообщения о&nbsp;ценных бумагах
+            </a>
+          </div>
+          <p class="footer__cookie">
+            Сайт Газпромбанка (Акционерное общество) использует cookie-файлы. Что это значит? Сookie&nbsp;&mdash; это
+            небольшие файлы, которые содержат информацию о&nbsp;предыдущих посещениях сайта. Они используются для
+            персонализации сервисов и&nbsp;для повышения удобства работы с&nbsp;сайтом. Если вы&nbsp;не&nbsp;хотите,
+            чтобы сookie хранились на&nbsp;вашем устройстве, вы&nbsp;можете запретить их&nbsp;в&nbsp;настройках браузера
+            или с&nbsp;помощью специальных программ. Обратите внимание, что после их&nbsp;отключения сайт может работать
+            хуже
+          </p>
+          <ul class="socials footer__socials">
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="Ссылка на ВК">
+                <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="Ссылка на Одноклассники">
+                <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-ok"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="Ссылка на Телеграм">
+                <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#" aria-label="Ссылка на YouTube">
+                <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-yt"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="footer__copyright">
+            <p class="footer__copyright-text">
+              &copy;&nbsp;1990-2024, Банк ГПБ (АО) Генеральная лицензия Банка России &#8470;&nbsp;354
+            </p>
+            <span class="footer__copyright-date">
+              Информация от&nbsp;<time datetime="2024-01-05">5.01.2024</time>
+            </span>
+          </div>
+          <a class="footer__language-link" href="#" aria-label="Ссылка на английскую версию сайта">
+            <svg class="footer__language-icon" width="20" height="20" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-flag"></use>
+            </svg>
+            <span>
+              English version
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

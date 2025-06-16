@@ -1,0 +1,137 @@
+.search-form {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+
+    outline: none;
+
+
+
+    @include vp-1024 {
+        display: flex;
+        gap: 16px;
+        padding: 0 69px;
+    }
+
+    @include vp-1304 {
+        padding: 0 209px;
+    }
+    
+    &__wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    &__input {
+        border: 1px solid $color-periwinkle;
+        border-radius: 8px;
+        padding: 17px 75px 17px 16px;
+        width: 100%;
+        height: 52px;
+        outline: none;
+        font-size: 14px;
+        line-height: 18px;
+        border-radius: 8px;
+
+    &:hover {
+        transition: border-color 0.35s;
+        border-color: $color-manatee;
+    }
+
+    &:focus-visible {
+        transition: border-color 0.35s;
+        border-color: $color-royal-blue-1;
+    }        
+
+        @include vp-768 {
+            padding: 19px 75px 19px 20px;
+            height: 56px;
+        }
+    }
+
+    &__submit {
+        position: absolute;
+        right: 16px;
+        top: 14px;
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        background: none;
+        border: none;
+        outline: none;        
+        cursor: pointer;
+
+        &:hover .search-form__image path,
+        &:focus-visible .search-form__image path {
+            transition: fill 0.35s;
+            fill: $color-royal-blue-1;
+        }
+
+        @include vp-768 {
+            right: 20px;
+            top: 16px;
+        }
+
+        @include vp-1024 {
+            top: 16px;
+        }
+    }
+
+    &__reset {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 52px;
+        top: 14px;
+        z-index: 2;
+        padding: 0;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        &:hover .search-form__image path,
+        &:focus-visible .search-form__image path {
+            transition: fill 0.35s;
+            fill: $color-royal-blue-1;
+        }
+
+        @include vp-768 {
+            right: 60px;
+            top: 16px;
+        }
+
+        @include vp-1024 {
+            right: 60px;
+            top: 16px;
+        }
+    }
+
+    &__btn {
+        display: none;
+        border: none;
+        background-color: $color-royal-blue-1;
+        color: $color-white;
+        border-radius: 8px;
+        outline: none;
+        font-size: 14px;
+        line-height: 18px;
+        width: 110px;
+        padding: 19px 35px 19px 33px;
+        cursor: pointer;
+
+        &:hover {
+            transition: background-color 0.35s;
+            background-color: $color-free-speech-blue;
+        }
+
+        &:focus-visible {
+            transition: background-color 0.35s;
+            background-color: $color-free-speech-blue;            
+        }
+
+        @include vp-1024 {
+            display: block;
+        }
+    }
+}
