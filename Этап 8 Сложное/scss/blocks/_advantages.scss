@@ -1,0 +1,190 @@
+.advantages {
+    margin: 0 0 60px;
+    position: relative;
+    overflow: hidden;
+
+
+    @include vp-768 {
+        margin: 0 0 76px;
+    }
+
+    @include vp-1024 {
+        margin: 0 0 121px;
+
+        &::after {
+            content: "";
+            width: 100vw;
+            height: 2px;
+            background-color: $color-royal-blue-1;
+            position: absolute;
+            top: 44px;
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+    }
+
+    @include vp-1304 {
+        margin: 0 0 141px;
+    }
+
+
+    &__wrapper {
+
+
+        @include vp-1024 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        position: relative;
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: -0.52px;
+        margin: 0 0 16px;
+        background-color: $color-white;
+
+        @include vp-768 {
+            font-size: 28px;
+            letter-spacing: -0.56px;            
+        }
+
+        @include vp-1024 {
+            font-size: 40px;
+            line-height: 44px;
+            letter-spacing: -1.6px;
+            text-align: center;
+            max-width: 735px;
+            margin: 0 auto 20px;
+
+            
+        }
+    }
+
+    &__subtitle {
+        display: inline-block;
+        font-size: 16px; 
+        line-height: 22px;
+        color: $color-storm-grey-1;
+        margin: 0 0 28px;
+
+        @include vp-768 {
+            margin: 0 0 32px;
+        }
+
+        @include vp-1024 {
+            margin: 0 auto 60px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        @include vp-1304 {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        @include vp-768 {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(150px, 1fr));
+            gap: 13px;
+        }
+
+        @include vp-1024 {
+            grid-template-columns: repeat(3, minmax(298px, 1fr));
+            gap: 60px 25px;
+        }
+
+        @include vp-1304 {
+            gap: 76px 24px;
+        }
+    }
+
+    &__item {
+        padding: 20px;
+        background-color: $color-solitude-1;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        min-height: 200px;
+
+        @include vp-768 {
+            min-height: 280px;
+            padding: 24px;
+        }
+
+        @include vp-1024 {
+            background: none;
+            align-items: center;
+            padding: 0;
+            min-height: auto;
+        }
+    }
+
+    &__item-icon {
+        margin: 0 0 12px;
+
+
+        @include vp-1024 {
+            margin: 0 0 20px;
+            width: 64px;
+            height: 64px;
+            padding: 16px;
+            border-radius: 12px;
+            background-color: $color-royal-blue-1;
+
+            path {
+                fill: $color-white;    
+            }
+        }
+    }
+
+    &__item-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 12px;
+
+        @include vp-1024 {
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            margin: 0 0 16px;
+        }
+    }
+
+    &__item-description {
+        font-size: 14px;
+        line-height: 18px;
+        color: $color-storm-grey-3;
+
+        @include vp-1024 {
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+
+    &__link {
+        color: $color-royal-blue-1;
+        transition: color 0.35s;
+        outline: none;
+
+        &:hover {
+            color: $color-free-speech-blue;
+            transition: color 0.35s;
+        }
+
+        &:focus-visible {
+            color: $color-free-speech-blue;
+            transition: color 0.35s;
+        }
+    }
+}

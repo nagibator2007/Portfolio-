@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Привилегии - Газпромбанк</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <svg class="header__icon-decor" width="24" height="24" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-decor"></use>
+          </svg>
+          <a class="header__logo-link" href="#" aria-label="Ссылка на главную страницу">
+            <svg class="header__logo-image" width="188" height="40" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#logo-gazprombank"></use>
+            </svg>
+          </a>
+          <div class="header__links">
+            <a class="header__link" href="#">
+              Частным клиентам
+            </a>
+            <a class="header__link header__link--light" href="#">
+              Private Banking
+            </a>
+            <a class="header__link header__link--light" href="#">
+              МСБ
+            </a>
+          </div>
+          <div class="header__links">
+            <button class="header__link header__link--active">
+              Москва
+            </button>
+            <a class="header__link" href="#">
+              Офисы и банкоматы
+            </a>
+          </div>
+          <button class="header__search btn-icon" aria-label="Открыть поиск">
+            <svg class="btn-icon__icon" width="24" height="24" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-search"></use>
+            </svg>
+          </button>
+          <a class="header__login btn" href="#">
+            Войти
+          </a>
+          <button class="header__burger btn-icon" aria-label="Открыть меню">
+            <svg class="btn-icon__icon" width="24" height="24" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="intro__banner-wrapper">
+          <div class="container">
+            <div class="intro__banner">
+              <div class="intro__wrapper">
+                <h1 class="intro__title">Газпромбанк Привилегии&nbsp;&mdash; больше, чем выгодно</h1>
+                <p class="intro__text">Улучшенные условия по&nbsp;продуктам банка и&nbsp;Газпром Бонус в&nbsp;подарок</p>
+                <a class="intro__button btn btn--secondary" href="#">Попробовать бесплатно</a>
+              </div>
+              <picture class="intro__picture">
+                <source srcset="images/intro-desktop-lg.png, images/intro-desktop-lg@2x.png 2x" media="(min-width: 1304px)" width="712" height="492">
+                <source srcset="images/intro-desktop.png, images/intro-desktop@2x.png 2x" media="(min-width: 1024px)" width="460" height="318">
+                <img class="intro__image" src="images/intro-mobile.png" srcset="images/intro-mobile@2x.png 2x" width="320" height="220" alt="Привилегии Газпробанка">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bonus">
+        <div class="container">
+          <h2 class="visually-hidden">Улучшенные условия по&nbsp;другим продуктам банка</h2>
+          <ul class="bonus__list">
+            <li class="bonus__item">
+              <h3 class="bonus__item-title">До 35% по акции</h3>
+              <span class="bonus__item-description">дополнительный доход по дебетовой карте</span>
+            </li>
+            <li class="bonus__item">
+              <h3 class="bonus__item-title">+2% надбавка</h3>
+              <span class="bonus__item-description">по накопительному счету и +1% по вкладу&nbsp;</span>
+            </li>
+            <li class="bonus__item">
+              <h3 class="bonus__item-title">Газпром Бонус за 0 ₽</h3>
+              <span class="bonus__item-description">кино, продукты, топливо с выгодой</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__wrapper">
+            <h2 class="advantages__title">Дебетовая карта с максимальной выгодой</h2>
+            <span class="advantages__subtitle">при оформлении Привилегий «Стандарт»&nbsp;или «Плюс»</span>
+            <ul class="advantages__list">
+              <li class="advantages__item">
+                <svg class="advantages__item-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.0573 20.3831C13.848 20.6977 13.668 20.8098 13.372 20.8098C13.0067 20.8098 12.6533 20.5737 12.6533 20.1844C12.6533 19.9684 12.716 19.8324 12.8213 19.6778L17.9293 12.0391C18.14 11.7231 18.3133 11.5938 18.672 11.5938C19.0547 11.5938 19.352 11.8604 19.352 12.2364C19.3431 12.4109 19.2828 12.5788 19.1787 12.7191L14.0573 20.3831Z" fill="currentColor"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7338 14.0663C14.7338 15.6263 13.8858 16.5663 12.5685 16.5663C11.2445 16.5663 10.3965 15.6329 10.3965 14.0663C10.3965 12.4956 11.2498 11.5996 12.5685 11.5996C13.8792 11.5996 14.7325 12.4903 14.7325 14.0663H14.7338ZM11.9552 14.0729C11.9552 15.0129 12.2032 15.4036 12.5685 15.4036C12.9272 15.4036 13.1738 15.0129 13.1738 14.0663C13.1738 13.1196 12.9272 12.7623 12.5685 12.7623C12.2032 12.7623 11.9552 13.1209 11.9552 14.0729Z" fill="currentColor"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.635 18.3108C21.635 19.8628 20.7937 20.8094 19.4697 20.8094C18.147 20.8094 17.3057 19.8761 17.3057 18.3108C17.3057 16.7388 18.159 15.8428 19.4697 15.8428C20.7817 15.8428 21.635 16.7348 21.635 18.3108ZM18.8643 18.3108C18.8643 19.2574 19.1043 19.6401 19.4697 19.6401C19.835 19.6401 20.0763 19.2561 20.0763 18.3108C20.0763 17.3574 19.835 16.9988 19.4697 16.9988C19.1057 16.9988 18.8643 17.3588 18.8643 18.3108Z" fill="currentColor"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M25.431 6.57366C24.8028 5.94385 24.0351 5.471 23.19 5.19347C22.3449 4.91594 21.4462 4.84154 20.567 4.97633C20.0407 4.25971 19.353 3.67717 18.5596 3.27595C17.7662 2.87472 16.8894 2.6661 16.0003 2.667C15.1115 2.66631 14.2349 2.87503 13.4418 3.27625C12.6486 3.67746 11.9611 4.25989 11.435 4.97633C10.5558 4.84154 9.65712 4.91594 8.81202 5.19347C7.96691 5.471 7.19914 5.94385 6.57099 6.57366C5.94249 7.20176 5.47073 7.96904 5.19392 8.81338C4.91711 9.65771 4.84302 10.5554 4.97766 11.4337C4.26115 11.9595 3.67858 12.6467 3.27714 13.4396C2.8757 14.2326 2.66667 15.1089 2.66699 15.9977C2.66699 17.8737 3.57899 19.5337 4.97766 20.563C4.84302 21.4413 4.91711 22.3389 5.19392 23.1833C5.47073 24.0276 5.94249 24.7949 6.57099 25.423C7.19941 26.0528 7.96746 26.5255 8.81281 26.8028C9.65816 27.0801 10.557 27.1542 11.4363 27.019C11.9623 27.7353 12.6496 28.3176 13.4425 28.7188C14.2354 29.12 15.1117 29.3288 16.0003 29.3283C16.8892 29.329 17.7657 29.1203 18.5589 28.7191C19.352 28.3179 20.0395 27.7354 20.5657 27.019C21.4448 27.1539 22.3434 27.0798 23.1885 26.8025C24.0336 26.5252 24.8014 26.0526 25.4297 25.423C26.0584 24.795 26.5304 24.0278 26.8075 23.1835C27.0845 22.3391 27.1588 21.4414 27.0243 20.563C27.741 20.037 28.3237 19.3496 28.7251 18.5564C29.1266 17.7632 29.3355 16.8866 29.335 15.9977C29.3355 15.1087 29.1266 14.2321 28.7251 13.4389C28.3237 12.6457 27.741 11.9583 27.0243 11.4323C27.1588 10.5539 27.0845 9.65621 26.8075 8.81187C26.5304 7.96753 26.0584 7.2003 25.4297 6.57233L25.431 6.57366ZM20.1977 7.12033C20.8506 6.88858 21.5558 6.84654 22.2316 6.9991C22.9074 7.15165 23.5261 7.49255 24.0162 7.98231C24.5062 8.47206 24.8475 9.09063 25.0004 9.76635C25.1533 10.4421 25.1117 11.1473 24.8803 11.8003C24.787 12.0657 24.7417 12.1977 24.7483 12.271C24.7503 12.3373 24.7769 12.4006 24.823 12.4483C24.8697 12.507 24.9963 12.567 25.2483 12.6883C25.8737 12.9864 26.4018 13.4554 26.7716 14.0412C27.1413 14.627 27.3375 15.3056 27.3375 15.9983C27.3375 16.6911 27.1413 17.3696 26.7716 17.9554C26.4018 18.5412 25.8737 19.0103 25.2483 19.3083C24.995 19.4283 24.8697 19.4883 24.8217 19.547C24.7758 19.5948 24.7497 19.6581 24.7483 19.7243C24.7417 19.799 24.7883 19.9297 24.8817 20.1937C25.1132 20.8468 25.1549 21.5523 25.0019 22.2282C24.8489 22.9041 24.5076 23.5228 24.0173 24.0126C23.5271 24.5024 22.9081 24.8433 22.2321 24.9957C21.556 25.1481 20.8506 25.1058 20.1977 24.8737C19.9337 24.7803 19.8017 24.7337 19.7283 24.7403C19.662 24.7422 19.5987 24.7688 19.551 24.815C19.4923 24.8617 19.4323 24.9883 19.311 25.2417C19.013 25.867 18.5439 26.3951 17.9581 26.7649C17.3723 27.1346 16.6937 27.3309 16.001 27.3309C15.3083 27.3309 14.6297 27.1346 14.0439 26.7649C13.4581 26.3951 12.989 25.867 12.691 25.2417C12.571 24.9883 12.5097 24.8617 12.4523 24.815C12.4044 24.7693 12.3412 24.7431 12.275 24.7417C12.2003 24.7337 12.0683 24.7817 11.8043 24.875C11.1514 25.1067 10.4462 25.1488 9.77041 24.9962C9.0946 24.8437 8.47584 24.5028 7.98581 24.013C7.49578 23.5233 7.15453 22.9047 7.00159 22.229C6.84865 21.5533 6.89028 20.848 7.12166 20.195C7.21499 19.9297 7.26166 19.7977 7.25499 19.7243C7.25304 19.658 7.22642 19.5948 7.18033 19.547C7.13366 19.4883 7.00699 19.4283 6.75366 19.307C6.12831 19.009 5.60018 18.5399 5.23043 17.9541C4.86068 17.3683 4.66444 16.6897 4.66444 15.997C4.66444 15.3043 4.86068 14.6257 5.23043 14.0399C5.60018 13.4541 6.12831 12.985 6.75366 12.687C7.00699 12.567 7.13366 12.507 7.18033 12.4483C7.22593 12.4004 7.25207 12.3372 7.25366 12.271C7.26166 12.1977 7.21499 12.0657 7.12166 11.8017C6.89028 11.1486 6.84865 10.4434 7.00159 9.76768C7.15453 9.09196 7.49578 8.47339 7.98581 7.98364C8.47584 7.49389 9.0946 7.15299 9.77041 7.00043C10.4462 6.84788 11.1514 6.88991 11.8043 7.12166C12.0683 7.215 12.2003 7.26166 12.275 7.255C12.3414 7.25317 12.4046 7.22653 12.4523 7.18033C12.5097 7.13366 12.571 7.007 12.6923 6.75366C12.9905 6.12868 13.4596 5.6009 14.0452 5.23142C14.6309 4.86193 15.3092 4.66584 16.0017 4.66584C16.6941 4.66584 17.3724 4.86193 17.9581 5.23142C18.5438 5.6009 19.0128 6.12868 19.311 6.75366C19.4323 7.007 19.4923 7.13366 19.551 7.18033C19.615 7.23366 19.6443 7.247 19.7283 7.25366C19.8017 7.26166 19.935 7.21366 20.199 7.12033H20.1977Z" fill="currentColor"/>
+                </svg>
+                <h3 class="advantages__item-title">Повышенный кэшбэк</h3>
+                <span class="advantages__item-description">5% на 6 популярных категорий + 1% на остальные покупки. Максимум — 5 000 баллов каждый месяц. Дополнительный кэшбэк <a class="advantages__link" href="#">по акции +25%</a></span>
+              </li>
+              <li class="advantages__item">
+                <svg class="advantages__item-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M30 11.3333C31.104 11.3333 32 12.2293 32 13.3333V28.6667C32 29.7707 31.104 30.6667 30 30.6667H7.33333C6.22933 30.6667 5.33333 29.7707 5.33333 28.6667V18.792C6.38267 19.1387 7.50267 19.3333 8.66667 19.3333C13.6267 19.3333 17.7947 15.928 18.9813 11.3333H30ZM27.3333 24.9067H10C9.448 24.9067 9 25.3547 9 25.9067C9 26.4587 9.448 26.9067 10 26.9067H27.3333C27.8853 26.9067 28.3333 26.4587 28.3333 25.9067C28.3333 25.3547 27.8853 24.9067 27.3333 24.9067ZM8.66667 0C13.4533 0 17.3333 3.88 17.3333 8.66667C17.3333 13.4533 13.4533 17.3333 8.66667 17.3333C3.88 17.3333 0 13.4533 0 8.66667C0 3.88 3.88 0 8.66667 0ZM10.48 4.488C10.088 4.10267 9.456 4.10267 9.06667 4.49867C8.67733 4.89067 8.68267 5.52533 9.07333 5.91333L10.8507 7.66667H4.044C3.492 7.66667 3.044 8.11467 3.044 8.66667C3.044 9.21867 3.492 9.66667 4.044 9.66667H10.8507L9.07333 11.42C8.68267 11.808 8.67733 12.4427 9.06533 12.8347C9.26133 13.0333 9.51867 13.1333 9.77733 13.1333C10.0307 13.1333 10.2853 13.036 10.4787 12.8453L13.9907 9.37867C14.1827 9.19067 14.2893 8.93333 14.2893 8.66667C14.2893 8.4 14.1827 8.14267 13.9907 7.95467L10.48 4.488Z" fill="currentColor"/>
+                </svg>
+                <h3 class="advantages__item-title">Больше переводов без комиссии</h3>
+                <span class="advantages__item-description">150 000 руб через СПБ и 30 000 руб по номеру карты каждый месяц</span>
+              </li>
+              <li class="advantages__item">
+                <svg class="advantages__item-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6667 25.6237C8.81333 25.3704 6.07333 24.0277 6 22.3997V19.8837C6.49867 20.2997 7.104 20.6411 7.75733 20.9171C9.084 21.4797 10.7773 21.8424 12.6667 21.9584V25.6224V25.6237ZM12.8267 27.6371C10.8 27.5304 8.956 27.1491 7.49733 26.5317C6.632 26.1664 5.80933 25.6784 5.17467 25.0304C4.54133 24.3864 4.02 23.4931 4 22.3997V6.39974C4 4.32507 5.744 2.94241 7.49733 2.19974C9.23333 1.46641 11.5133 1.06641 14 1.06641C16.4867 1.06641 18.7667 1.46641 20.5027 2.19974C22.2493 2.94107 24 4.33174 24 6.39974V13.0117C26.0627 13.4717 28.6667 14.6997 28.6667 17.1664V26.6637C28.6667 28.4011 27.2293 29.6304 25.7573 30.2717C24.372 30.8744 22.584 31.1917 20.6667 31.1917C18.7493 31.1917 16.9613 30.8744 15.576 30.2717C14.5973 29.8451 13.2787 29.0144 12.8267 27.6357V27.6371ZM21.828 12.7037C21.9413 12.4771 22 12.2411 22 11.9997V8.95041C21.4677 9.37901 20.8757 9.72758 20.2427 9.98507C18.6107 10.6757 16.424 11.0651 14 11.0651C11.576 11.0651 9.38933 10.6757 7.75733 9.98507C7.12432 9.72756 6.53229 9.37899 6 8.95041V11.9997C6 13.7397 9.04267 15.1691 13.256 15.3197C13.82 14.4984 14.6907 13.9384 15.5947 13.5571C16.9747 12.9731 18.7547 12.6664 20.6667 12.6664C21.06 12.6664 21.448 12.6797 21.828 12.7051V12.7037ZM12.7133 16.6291C10.8053 16.5157 9.09467 16.1504 7.75733 15.5837C7.1244 15.3266 6.53239 14.9785 6 14.5504V17.3331C6 18.9904 8.76133 20.3664 12.6667 20.6224V17.1664C12.6667 16.9797 12.6827 16.8011 12.7133 16.6291ZM14 3.06641C9.40533 3.06641 6 4.55974 6 6.39974C6 8.23974 9.40533 9.73307 14 9.73307C18.5947 9.73307 22 8.23974 22 6.39974C22 4.55974 18.5947 3.06641 14 3.06641ZM14.6667 17.1664C14.6667 18.5464 17.22 19.6664 20.6667 19.6664C24.1067 19.6664 26.656 18.5437 26.6667 17.1664C26.6667 15.7851 24.1133 14.6664 20.6667 14.6664C17.22 14.6664 14.6667 15.7864 14.6667 17.1664ZM26.6667 19.5024C26.308 19.7651 25.9027 19.9824 25.4787 20.1611C24.2027 20.7011 22.516 20.9997 20.6667 20.9997C18.8173 20.9997 17.1307 20.7011 15.8547 20.1611C15.4346 19.988 15.036 19.767 14.6667 19.5024V21.9997C14.7813 23.3357 17.3 24.4037 20.6667 24.4037C24.0333 24.4037 26.5467 23.3357 26.6627 21.9997L26.6667 19.5024ZM14.6667 26.6464V24.2397C15.0253 24.5024 15.4307 24.7197 15.8547 24.8997C17.1307 25.4397 18.8173 25.7371 20.6667 25.7371C22.516 25.7371 24.2027 25.4397 25.4787 24.8997C25.9027 24.7197 26.308 24.5024 26.6667 24.2397V26.6464C26.6333 28.0544 24.0907 29.1904 20.6667 29.1904C17.2427 29.1904 14.7 28.0544 14.6667 26.6464Z" fill="currentColor"/>
+                </svg>
+                <h3 class="advantages__item-title">Доход на остаток по карте</h3>
+                <span class="advantages__item-description">5% годовых на неснижаемый остаток по карте от 30 000 до 100 000 руб. Дополнительный доход на остаток <a class="advantages__link" href="#">по акции +10%</a></span>
+              </li>
+              <li class="advantages__item">
+                <svg class="advantages__item-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.09207 17.5403C5.67741 18.763 4.85074 19.615 4.11341 20.375C3.24941 21.2643 2.50941 22.0283 2.69607 23.1097C2.96941 24.695 5.04807 24.675 6.21874 24.6657L11.0107 24.663C11.0936 25.9299 11.6553 27.1178 12.5819 27.9857C13.5085 28.8536 14.7305 29.3366 16.0001 29.3366C17.2696 29.3366 18.4917 28.8536 19.4183 27.9857C20.3448 27.1178 20.9065 25.9299 20.9894 24.663L25.7814 24.6657C26.9521 24.6763 29.0307 24.695 29.3041 23.1097C29.4907 22.027 28.7507 21.2643 27.8867 20.375C27.1494 19.615 26.3227 18.7617 25.9081 17.5403C25.3841 15.9937 25.1254 13.3337 24.6667 10.6163C24.0001 6.66699 21.3334 2.66699 16.0001 2.66699C10.6667 2.66699 8.00007 6.66699 7.33341 10.6163C6.89074 13.2363 6.61607 15.9937 6.09207 17.5417V17.5403ZM4.80007 22.5937C4.93341 22.4137 5.16941 22.1577 5.56141 21.7563C6.27874 21.023 7.41874 19.8577 7.98541 18.1843C8.76941 15.8737 8.90141 13.3443 9.30541 10.951C9.58807 9.27233 10.2841 7.68166 11.3681 6.53766C12.4107 5.43766 13.8881 4.66699 16.0001 4.66699C18.1121 4.66699 19.5894 5.43766 20.6321 6.53633C21.7161 7.68033 22.4107 9.27099 22.6947 10.9497C23.1001 13.3537 23.2281 15.8657 24.0147 18.183C24.5814 19.8563 25.7214 21.0203 26.4387 21.755C26.8307 22.155 27.0654 22.4123 27.1987 22.5923C26.6521 22.6977 26.0854 22.663 25.5321 22.663H6.46807C5.91341 22.663 5.34674 22.6977 4.79874 22.5923L4.80007 22.5937ZM18.9827 24.6643H13.0174C13.0968 25.3999 13.4453 26.0803 13.9958 26.5746C14.5464 27.0689 15.2602 27.3423 16.0001 27.3423C16.74 27.3423 17.4538 27.0689 18.0043 26.5746C18.5549 26.0803 18.9033 25.3999 18.9827 24.6643Z" fill="currentColor"/>
+                </svg>
+                <h3 class="advantages__item-title">Бесплатные уведомления</h3>
+                <span class="advantages__item-description">0 руб за СМС об операциях по карте</span>
+              </li>
+              <li class="advantages__item">
+                <svg class="advantages__item-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.2172 7.38166L11.0292 10.411C10.8959 10.7483 10.8292 10.9177 10.8706 11.051C10.8942 11.1283 10.9407 11.1966 11.0039 11.247C11.1132 11.3337 11.2946 11.3337 11.6572 11.3337H15.4012C15.7026 11.3337 15.8546 11.3337 15.9826 11.2777C16.0581 11.2444 16.1268 11.1974 16.1852 11.139C16.2839 11.0403 16.3399 10.899 16.4492 10.619L17.6386 7.58966C17.7706 7.25233 17.8372 7.08299 17.7959 6.94966C17.7723 6.87235 17.7258 6.80402 17.6626 6.75366C17.5532 6.66699 17.3719 6.66699 17.0092 6.66699H13.2652C12.9639 6.66699 12.8119 6.66699 12.6839 6.72299C12.6083 6.75627 12.5396 6.80329 12.4812 6.86166C12.3826 6.96033 12.3266 7.10166 12.2172 7.38166Z" fill="currentColor"/>
+                  <path d="M9.58014 14.4117L9.72014 14.0503C9.8308 13.7677 9.88547 13.6277 9.98414 13.5277C10.0429 13.4691 10.1121 13.4221 10.1881 13.389C10.3161 13.333 10.4668 13.333 10.7695 13.333H12.4841C12.8455 13.333 13.0268 13.333 13.1361 13.4197C13.1994 13.47 13.2459 13.5384 13.2695 13.6157C13.3108 13.749 13.2455 13.917 13.1135 14.2557L12.9721 14.6157C12.8628 14.8983 12.8081 15.0383 12.7081 15.1383C12.6498 15.1967 12.581 15.2438 12.5055 15.277C12.3775 15.333 12.2255 15.333 11.9228 15.333H10.2095C9.8468 15.333 9.6668 15.333 9.55614 15.2463C9.49291 15.196 9.44642 15.1276 9.4228 15.0503C9.3828 14.917 9.44814 14.749 9.58014 14.4103V14.4117Z" fill="currentColor"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.44 4.09899L4.232 17.4057C4.13867 17.6483 4.09067 17.7683 4.05867 17.8937C4.0401 17.9683 4.02585 18.044 4.016 18.1203C4 18.2497 4 18.3803 4 18.639V27.0817C4 27.9417 4 28.3723 4.19067 28.6897C4.30303 28.8755 4.45911 29.0312 4.64533 29.143C4.96267 29.335 5.392 29.335 6.25333 29.335H24.4133C25.2733 29.335 25.704 29.335 26.0213 29.1443C26.2072 29.032 26.3628 28.8759 26.4747 28.6897C26.6667 28.3723 26.6667 27.943 26.6667 27.0817V4.92033C26.6667 4.06033 26.6667 3.62966 26.476 3.31233C26.3636 3.12644 26.2076 2.97081 26.0213 2.85899C25.704 2.66699 25.2747 2.66699 24.4133 2.66699H11.5373C10.9333 2.66699 10.6307 2.66699 10.3747 2.77899C10.2231 2.8454 10.0852 2.93944 9.968 3.05633C9.77067 3.25366 9.66 3.53633 9.44 4.09899ZM6 18.379L11.3333 4.66699C14.628 4.66699 17.924 4.66033 21.2187 4.66166L16.232 17.4057C16.1387 17.647 16.0907 17.7683 16.0587 17.8937C16.0401 17.9683 16.0259 18.044 16.016 18.1203C16 18.2483 16 18.3777 16 18.6377C16 21.5403 15.992 24.443 16 27.3457C12.6667 27.3457 9.33333 27.343 6 27.3323C5.992 24.435 6.00133 21.2763 6.00133 18.3777L6 18.379ZM24.6667 27.3337C24.6867 19.7777 24.6867 12.223 24.6667 4.66699C24.232 4.66699 23.8 4.66166 23.3653 4.66699C21.5987 9.15233 19.7587 13.8883 18.0013 18.3777V27.3337C20.2053 27.339 22.4467 27.339 24.6667 27.3337Z" fill="currentColor"/>
+                </svg>
+                <h3 class="advantages__item-title">Больше снятий наличных без комиссии</h3>
+                <span class="advantages__item-description">200 000 руб каждый месяц в любых сторонних банкоматах</span>
+              </li>
+              <li class="advantages__item">
+                <svg class="advantages__item-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.1602 25.1663C14.1602 24.9256 14.2076 24.6872 14.2997 24.4648C14.3918 24.2423 14.5269 24.0402 14.6971 23.87C14.8674 23.6997 15.0695 23.5647 15.2919 23.4726C15.5143 23.3804 15.7527 23.333 15.9935 23.333C16.2342 23.333 16.4726 23.3804 16.6951 23.4726C16.9175 23.5647 17.1196 23.6997 17.2899 23.87C17.4601 24.0402 17.5951 24.2423 17.6873 24.4648C17.7794 24.6872 17.8268 24.9256 17.8268 25.1663C17.8268 25.6526 17.6337 26.1189 17.2899 26.4627C16.946 26.8065 16.4797 26.9997 15.9935 26.9997C15.5073 26.9997 15.0409 26.8065 14.6971 26.4627C14.3533 26.1189 14.1602 25.6526 14.1602 25.1663Z" fill="currentColor"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7193 1.81034C22.926 1.33301 21.8487 1.33301 19.698 1.33301H12.298C10.1473 1.33301 9.07135 1.33301 8.27935 1.81034C7.81308 2.09093 7.42261 2.48141 7.14202 2.94767C6.66602 3.74101 6.66602 4.81567 6.66602 6.96634V25.033C6.66602 27.1837 6.66602 28.2597 7.14335 29.053C7.42335 29.5183 7.81402 29.909 8.28068 30.189C9.07402 30.6663 10.1487 30.6663 12.2993 30.6663H19.6993C21.85 30.6663 22.926 30.6663 23.718 30.189C24.1841 29.9088 24.5746 29.5188 24.8553 29.053C25.3327 28.2597 25.3327 27.1837 25.3327 25.033V6.96634C25.3327 4.81567 25.3327 3.73967 24.8553 2.94767C24.5751 2.48157 24.1851 2.0911 23.7193 1.81034ZM23.3327 25.033V6.96634C23.3327 5.85301 23.33 5.15567 23.282 4.63434C23.2353 4.14101 23.162 4.01167 23.142 3.97834C23.0296 3.79245 22.8736 3.63683 22.6873 3.52501C22.654 3.50367 22.5247 3.43034 22.0313 3.38367C21.51 3.33567 20.778 3.33301 19.666 3.33301C19.6633 4.02767 19.646 4.40234 19.4753 4.68767C19.363 4.87356 19.2069 5.02919 19.0207 5.14101C18.7033 5.33301 18.274 5.33301 17.4127 5.33301H14.586C13.726 5.33301 13.2953 5.33301 12.978 5.14234C12.7921 5.02997 12.6365 4.87389 12.5247 4.68767C12.3513 4.40234 12.3353 4.02767 12.3327 3.33301C11.2193 3.33301 10.4887 3.33567 9.96735 3.38367C9.47402 3.43034 9.34468 3.50367 9.31135 3.52367C9.12546 3.63604 8.96984 3.79212 8.85802 3.97834C8.83668 4.01167 8.76335 4.14101 8.71668 4.63434C8.66868 5.15567 8.66602 5.85301 8.66602 6.96634V25.033C8.66602 26.1463 8.66868 26.8437 8.71668 27.365C8.76335 27.8583 8.83668 27.9877 8.85668 28.021C8.96905 28.2069 9.12513 28.3625 9.31135 28.4743C9.34468 28.4957 9.47402 28.569 9.96735 28.6157C10.4887 28.665 11.186 28.6663 12.2993 28.6663H19.6993C20.8127 28.6663 21.51 28.6637 22.0313 28.6157C22.5247 28.569 22.654 28.4957 22.6873 28.4757C22.8732 28.3633 23.0289 28.2072 23.1407 28.021C23.162 27.9877 23.2353 27.8583 23.282 27.365C23.3313 26.8437 23.3327 26.1463 23.3327 25.033Z" fill="currentColor"/>
+                </svg>
+                <h3 class="advantages__item-title">Бесплатный платежный стикер</h3>
+                <span class="advantages__item-description">0 руб обслуживание. Наклейте на телефон — платите бесконтактно</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="container">
+          <h2 class="visually-hidden">Увелечение дохода с помощью кэшбэка</h2>
+          <div class="banner__wrapper">
+            <div class="banner__text">
+              <h3 class="banner__title">Увеличьте доход</h3>
+              <span class="banner__subtitle">+25% кэшбэк и +10% на остаток по карте</span>
+            </div>
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/banner-desktop.png 1x, images/banner-desktop@2x.png 2x">
+              <source media="(min-width: 768px)" srcset="images/banner-tablet.png 1x, images/banner-tablet@2x.png 2x">
+              <img class="banner__image" src="banner-mobile.png" alt="Увелечение дохода с помощью кэшбэка" srcset="images/banner-mobile@2x.png 2x">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="plus">
+        <div class="container">
+          <h2 class="plus__title">Улучшенные условия по другим продуктам банка</h2>
+          <ul class="plus__list">
+            <li class="plus__item">
+              <a class="plus-card" href="#">
+                <div class="plus-card__content">
+                  <span class="plus-card__label">С&nbsp;Привилегиями «Плюс»</span>
+                  <h3 class="plus-card__title">+2% надбавка</h3>
+                  <p class="plus-card__text">по накопительному счету «Ежедневный процент»</p>
+                  <p class="plus-card__button">
+                    <span class="plus-card__button-text">Подробнее</span>
+                    <svg class="plus-card__icon" width="20" height="20" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </p>
+                </div>
+                <img class="plus-card__image" src="images/bonus-1.png" srcset="images/bonus-1@2x.png 2x" width="250" height="270" alt="Привилегии Газпробанка">
+              </a>
+            </li>
+            <li class="plus__item">
+              <a class="plus-card" href="#">
+                <div class="plus-card__content">
+                  <span class="plus-card__label">С&nbsp;Привилегиями «Плюс»</span>
+                  <h3 class="plus-card__title">+1% надбавка</h3>
+                  <p class="plus-card__text">по&nbsp;вкладу &laquo;В&nbsp;Плюсе&raquo;</p>
+                  <p class="plus-card__button">
+                    <span class="plus-card__button-text">Подробнее</span>
+                    <svg class="plus-card__icon" width="20" height="20" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </p>
+                </div>
+                <img class="plus-card__image" src="images/bonus-2.png" srcset="images/bonus-2@2x.png 2x" width="250" height="270" alt="Привилегии Газпробанка">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="application">
+        <div class="container">
+          <div class="application__wrapper">
+            <h2 class="application__title">Заполните заявку на дебетовую карту с Привилегиями</h2>
+            <form class="form" action="#" method="POST">
+              <div class="form__wrapper">
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" id="fio" name="fio" required>
+                  <label class="custom-input__label" for="fio">Фамилия, имя и отчество</label>
+                  <span class="custom-input__error">Заполните поле</span>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="tel" id="phone" name="phone" required>
+                  <label class="custom-input__label" for="phone">Мобильный телефон</label>
+                  <span class="custom-input__error">Неверно заполненное поле</span>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="email" id="email" name="email" required>
+                  <label class="custom-input__label" for="email">Email</label>
+                  <span class="custom-input__error">Неверно заполненное поле</span>
+                </div>
+              </div>
+              <div class="custom-checkbox">
+                <input class="visually-hidden custom-checkbox__input" id="agreement" name="agreement" type="checkbox" required>
+                <label class="custom-checkbox__label" for="agreement">
+                  <span class="custom-checkbox__field">
+                    <svg class="custom-checkbox__icon" width="12" height="12" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#icon-check"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-checkbox__text">Я даю
+                    <a class="custom-checkbox__link" href="">согласие</a>
+                    на условия обработки персональных данных, а также разрешаю запрос в бюро кредитных историй</span>
+                </label>
+              </div>
+              <button class="btn btn--secondary" type="submit">Далее</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="subscriptions">
+        <div class="container">
+          <div class="subscriptions__wrapper">
+            <h2 class="subscriptions__title">Подписка Газпром Бонус в подарок</h2>
+            <p class="subscriptions__text">Предоставляется бесплатно при подключенных&nbsp;Привилегиях. Активируйте предложения партнеров в&nbsp;приложении банка</p>
+            <ul class="subscriptions__list">
+              <li class="subscriptions__item">
+                <div class="subscription-card">
+                  <picture class="subscription-card__picture">
+                    <source srcset="images/premier-desktop.jpg, images/premier-desktop@2x.jpg 2x" media="(min-width: 1304px)" width="196" height="108">
+                    <source srcset="images/premier-tablet.jpg, images/premier-tablet@2x.jpg 2x" media="(min-width: 768px)" width="172" height="96">
+                    <img class="subscription-card__image" src="images/premier-mobile.jpg" srcset="images/premier-mobile@2x.jpg 2x" width="160" height="90" alt="PREMIER">
+                  </picture>
+                  <div class="subscription-card__content">
+                    <h3 class="subscription-card__title">PREMIER</h3>
+                    <p class="subscription-card__text">Без доплат все фильмы, сериалы и&nbsp;шоу</p>
+                  </div>
+                </div>
+              </li>
+              <li class="subscriptions__item">
+                <div class="subscription-card">
+                  <picture class="subscription-card__picture">
+                    <source srcset="images/paket-desktop.jpg, images/paket-desktop@2x.jpg 2x" media="(min-width: 1304px)" width="196" height="108">
+                    <source srcset="images/paket-tablet.jpg, images/paket-tablet@2x.jpg 2x" media="(min-width: 768px)" width="172" height="96">
+                    <img class="subscription-card__image" src="images/paket-mobile.jpg" srcset="images/paket-mobile@2x.jpg 2x" width="160" height="90" alt="Сервис «Пакет»">
+                  </picture>
+                  <div class="subscription-card__content">
+                    <h3 class="subscription-card__title">Сервис «Пакет»</h3>
+                    <p class="subscription-card__text">До&nbsp;50% кэшбэк в&nbsp;&laquo;Пятёрочке&raquo; и&nbsp;&laquo;Перекрёстке&raquo;</p>
+                  </div>
+                </div>
+              </li>
+              <li class="subscriptions__item">
+                <div class="subscription-card">
+                  <picture class="subscription-card__picture">
+                    <source srcset="images/ozon-desktop.jpg, images/ozon-desktop@2x.jpg 2x" media="(min-width: 1304px)" width="196" height="108">
+                    <source srcset="images/ozon-tablet.jpg, images/ozon-tablet@2x.jpg 2x" media="(min-width: 768px)" width="172" height="96">
+                    <img class="subscription-card__image" src="images/ozon-mobile.jpg" srcset="images/ozon-mobile@2x.jpg 2x" width="160" height="90" alt="Ozon">
+                  </picture>
+                  <div class="subscription-card__content">
+                    <h3 class="subscription-card__title">Ozon</h3>
+                    <p class="subscription-card__text">Бесплатная доставка курьером</p>
+                  </div>
+                </div>
+              </li>
+              <li class="subscriptions__item">
+                <div class="subscription-card">
+                  <picture class="subscription-card__picture">
+                    <source srcset="images/gazpromneft-desktop.jpg, images/gazpromneft-desktop@2x.jpg 2x" media="(min-width: 1304px)" width="196" height="108">
+                    <source srcset="images/gazpromneft-tablet.jpg, images/gazpromneft-tablet@2x.jpg 2x" media="(min-width: 768px)" width="172" height="96">
+                    <img class="subscription-card__image" src="images/gazpromneft-mobile.jpg" srcset="images/gazpromneft-mobile@2x.jpg 2x" width="160" height="90" alt="АЗС «Газпромнефть»">
+                  </picture>
+                  <div class="subscription-card__content">
+                    <h3 class="subscription-card__title">АЗС «Газпромнефть»</h3>
+                    <p class="subscription-card__text">1,5 бонуса за&nbsp;каждый литр топлива и&nbsp;25% бонусами за&nbsp;кофе и&nbsp;горячий шоколад</p>
+                  </div>
+                </div>
+              </li>
+              <li class="subscriptions__item">
+                <div class="subscription-card">
+                  <picture class="subscription-card__picture">
+                    <source srcset="images/lenta-desktop.jpg, images/lenta-desktop@2x.jpg 2x" media="(min-width: 1304px)" width="196" height="108">
+                    <source srcset="images/lenta-tablet.jpg, images/lenta-tablet@2x.jpg 2x" media="(min-width: 768px)" width="172" height="96">
+                    <img class="subscription-card__image" src="images/lenta-mobile.jpg" srcset="images/lenta-mobile@2x.jpg 2x" width="160" height="90" alt="Лента">
+                  </picture>
+                  <div class="subscription-card__content">
+                    <h3 class="subscription-card__title">Лента</h3>
+                    <p class="subscription-card__text">Скидка 13% на&nbsp;5 покупок в&nbsp;месяц</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="connect">
+        <div class="container">
+          <h2 class="connect__title">Как подключить Привилегии</h2>
+          <p class="connect__text">Первый месяц Привилегий &laquo;Стандарт&raquo;&nbsp;&mdash; 0&nbsp;руб, далее 199&nbsp;руб в&nbsp;месяц. Улучшенные Привилегии &laquo;Плюс&raquo;&nbsp;&mdash; 299&nbsp;руб в&nbsp;месяц</p>
+          <div class="connect__tabs">
+            <div class="connect__tabs-controls">
+              <button class="connect__tabs-control is-active" type="button">Еще нет карты</button>
+              <button class="connect__tabs-control" type="button">Уже есть карта</button>
+            </div>
+            <div class="connect__tabs-content">
+              <div class="connect__tabs-item is-active">
+                <ol class="connect__list">
+                  <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <h3 class="connect__item-title">Заполните заявку на&nbsp;карту</h3>
+                      <p class="connect__item-text">
+                        <a class="connect__link" href="#">На&nbsp;сайте</a>
+                         или в&nbsp;ближайшем офисе
+                        </p>
+                    </div>
+                  </li>
+                  <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <h3 class="connect__item-title">Получите карту</h3>
+                      <p class="connect__item-text">В&nbsp;офисе или с&nbsp;бесплатной доставкой представителем банка</p>
+                    </div>
+                  </li>
+                  <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <h3 class="connect__item-title">Проверьте подключение Привилегий</h3>
+                      <p class="connect__item-text">В&nbsp;детальной информации по&nbsp;карте в&nbsp;мобильном приложении</p>
+                    </div>
+                  </li>
+                  <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <h3 class="connect__item-title">Активируйте Газпром Бонус за 0 ₽</h3>
+                      <p class="connect__item-text">На экране Привилегий в карточке с предложением от партнера нажмите «Перейти в подписку»</p>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+              <div class="connect__tabs-item">
+                <!-- Как подключить привилегии. Вкладка "Уже есть карта" -->
+                <ol class="connect__list">
+                 <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <p class="connect__item-text">Откройте приложение Газпромбанка и нажмите на дебетовую карту, к которой хотите подключить Привилегии</p>
+                    </div>
+                  </li>
+                  <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <p class="connect__item-text">На экране детальной информации по карте нажмите на «Газпромбанк Привилегии»</p>
+                    </div>
+                  </li>
+                  <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <p class="connect__item-text">Выберите уровень Привилегий «Стандарт» или «Плюс» и нажмите «Подключить»</p>
+                    </div>
+                  </li>
+                  <li class="connect__list-item">
+                    <div class="connect__item-content">
+                      <p class="connect__item-text">Активируйте на экране Привилегий подписку Газпром Бонус за 0 руб — зайдите в карточку с предложением от партнера и нажмите «Перейти в подписку»</p>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefit">
+        <div class="container">
+          <div class="benefit__wrapper">
+            <picture class="benefit__picture">
+              <source srcset="images/gift-desktop-lg.png, images/gift-desktop-lg@2x.png 2x" media="(min-width: 1304px)" width="600" height="480">
+              <source srcset="images/gift-desktop.png, images/gift-desktop@2x.png 2x" media="(min-width: 1024px)" width="400" height="320">
+              <source srcset="images/gift-tablet.png, images/gift-tablet@2x.png 2x" media="(min-width: 768px)" width="300" height="240">
+              <img class="benefit__image" src="images/gift-mobile.png" srcset="images/gift-mobile@2x.png 2x" width="250" height="200" alt="Экономия с Привилегиями">
+            </picture>
+            <div class="benefit__content">
+              <h2 class="benefit__title">Сколько можно сэкономить с Привилегиями?</h2>
+              <p class="benefit__heading-text">В среднем от 3&nbsp;000 руб в месяц! Активно пользуйтесь картой Газпромбанка и подпиской Газпром Бонус. Пример экономии:</p>
+              <ul class="benefit__list">
+                <li class="benefit__item">
+                  <p class="benefit__text">~1&nbsp;344 руб при регулярных заказах в &laquo;Пятёрочке&raquo; и&nbsp;&laquo;Перекрёстке&raquo; на общую сумму 15&nbsp;000 руб в&nbsp;месяц</p>
+                </li>
+                <li class="benefit__item">
+                  <p class="benefit__text">~448 руб&nbsp;&mdash; онлайн-кинотеатр PREMIER и&nbsp;курьерская доставка 1 заказа Ozon</p>
+                </li>
+                <li class="benefit__item">
+                  <p class="benefit__text">~1&nbsp;300 руб при покупках на&nbsp;общую сумму 10&nbsp;000 руб в&nbsp;месяц в&nbsp;&laquo;Ленте&raquo;</p>
+                </li>
+                <li class="benefit__item">
+                  <p class="benefit__text">~195 руб при покупке 90 л&nbsp;топлива и&nbsp;3 чашек кофе по&nbsp;200 руб на&nbsp;АЗС &laquo;Газпромнефть&raquo;</p>
+                </li>
+                <li class="benefit__item">
+                  <p class="benefit__text">149 руб&nbsp;&mdash; СМС-уведомления и&nbsp;обслуживание стикера</p>
+                </li>
+              </ul>
+              <p class="benefit__bottom-text">А еще +2&nbsp;000 руб кэшбэк, экономия 700 руб на комиссии за переводы, 1&nbsp;000 руб на снятии наличных и многое другое</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="container">
+          <div class="faq__wrapper">
+            <div class="faq__heading">
+              <div class="faq__icon-wrapper">
+                <svg class="faq__icon" width="28" height="28" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-question"></use>
+                </svg>
+              </div>
+              <h2 class="faq__title">Часто задаваемые вопросы</h2>
+            </div>
+            <div class="faq__accordion">
+              <div class="faq__element is-active">
+                <button class="faq__button" type="button">
+                  <span class="faq__button-text">Что такое Газпромбанк Привилегии?</span>
+                  <span class="faq__button-icon"></span>
+                </button>
+                <div class="faq__content">
+                  <p class="faq__text">Это сервис для клиентов Газпромбанка. Он&nbsp;делает условия по&nbsp;банковским продуктам выгоднее и&nbsp;предоставляет специальные предложения от&nbsp;партнеров подписки Газпром Бонус.</p>
+                </div>
+              </div>
+              <div class="faq__element">
+                <button class="faq__button" type="button">
+                  <span class="faq__button-text">Сколько стоят Газпромбанк Привилегии «Стандарт»?</span>
+                  <span class="faq__button-icon"></span>
+                </button>
+                <div class="faq__content">
+                  <p class="faq__text">Это сервис для клиентов Газпромбанка. Он&nbsp;делает условия по&nbsp;банковским продуктам выгоднее и&nbsp;предоставляет специальные предложения от&nbsp;партнеров подписки Газпром Бонус.</p>
+                </div>
+              </div>
+              <div class="faq__element">
+                <button class="faq__button" type="button">
+                  <span class="faq__button-text">Сколько стоят Газпромбанк Привилегии «Плюс»?</span>
+                  <span class="faq__button-icon"></span>
+                </button>
+                <div class="faq__content">
+                  <p class="faq__text">Это сервис для клиентов Газпромбанка. Он&nbsp;делает условия по&nbsp;банковским продуктам выгоднее и&nbsp;предоставляет специальные предложения от&nbsp;партнеров подписки Газпром Бонус.</p>
+                </div>
+              </div>
+              <div class="faq__element">
+                <button class="faq__button" type="button">
+                  <span class="faq__button-text">Кто может оформить Газпромбанк Привилегии?</span>
+                  <span class="faq__button-icon"></span>
+                </button>
+                <div class="faq__content">
+                  <p class="faq__text">Это сервис для клиентов Газпромбанка. Он&nbsp;делает условия по&nbsp;банковским продуктам выгоднее и&nbsp;предоставляет специальные предложения от&nbsp;партнеров подписки Газпром Бонус.</p>
+                </div>
+              </div>
+              <div class="faq__element">
+                <button class="faq__button" type="button">
+                  <span class="faq__button-text">Как оплатить Газпромбанк Привилегии?</span>
+                  <span class="faq__button-icon"></span>
+                </button>
+                <div class="faq__content">
+                  <p class="faq__text">Это сервис для клиентов Газпромбанка. Он&nbsp;делает условия по&nbsp;банковским продуктам выгоднее и&nbsp;предоставляет специальные предложения от&nbsp;партнеров подписки Газпром Бонус.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__left">
+            <a class="footer__logo-link" href="#" aria-label="Ссылка на главную страницу">
+              <svg class="footer__logo-image" width="188" height="40" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#logo-gazprombank"></use>
+              </svg>
+            </a>
+            <a class="footer__app" href="#">
+              <img class="footer__app-icon" width="48" height="48" src="images/icon-gpb-app.svg" alt="Логотип приложения Газпромбанка">
+              <p class="footer__app-text">
+                <span class="footer__app-name">
+                  Газпромбанк
+                </span>
+                <span class="footer__app-platform">
+                  для Android
+                </span>
+              </p>
+            </a>
+            <div class="footer__contacts">
+              <div class="footer__phone">
+                <span class="footer__phone-text">
+                  Бесплатно по&nbsp;России
+                </span>
+                <a class="footer__phone-link" href="tel:88001000701">
+                  8&nbsp;800&nbsp;100 07&nbsp;01
+                </a>
+              </div>
+              <div class="footer__phone">
+                <span class="footer__phone-text">
+                  Бесплатно с&nbsp;мобильных
+                </span>
+                <a class="footer__phone-link" href="tel:400">
+                  400
+                </a>
+              </div>
+            </div>
+            <div class="footer__feedback">
+              <span class="footer__feedback-text">
+                Есть жалобы и&nbsp;предложения?
+              </span>
+              <button class="footer__feedback-btn btn btn--tertiary" type="button">
+                Обратная связь
+              </button>
+            </div>
+            <div class="footer__location">
+              <span class="footer__location-text">
+                Ваше местоположение
+              </span>
+              <a class="footer__location-link" href="#">
+                <svg class="footer__location-icon" width="16" height="16" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-location"></use>
+                </svg>
+                <span>Москва</span>
+              </a>
+            </div>
+          </div>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                О&nbsp;газпромбанке
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Пресс-центр
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Документы и&nbsp;тарифы
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Закупки
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Реквизиты
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Комплаенс
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Противодействие коррупции
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Аналитика
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Аресты и&nbsp;взыскания с&nbsp;банковских счетов
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Сведения о&nbsp;наличии счетов и&nbsp;другой информации
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Информация для нотариусов
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Направление обращений финансовому уполномоченному
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Карьера в&nbsp;Газпромбанке
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Кредитные карты
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">
+                Потребительские кредиты
+              </a>
+            </li>
+          </ul>
+          <div class="footer__right">
+            <div class="footer__policy">
+              <a class="footer__policy-link" href="#">
+                Информация о процентных ставках по договорам банковского вклада с физическими лицами
+              </a>
+              <a class="footer__policy-link" href="#">
+                Раскрытие информации профессиональным участником рынка ценных бумаг
+              </a>
+              <a class="footer__policy-link" href="#">
+                Информация для клиентов по Федеральному закону №115-ФЗ
+              </a>
+              <a class="footer__policy-link" href="#">
+                Частная политика обработки и защиты персональных данных в Газпромбанке
+              </a>
+              <a class="footer__policy-link" href="#">
+                Раскрытие информации на сайте ООО «Интерфакс-ЦРКИ»
+              </a>
+              <a class="footer__policy-link" href="#">
+                Сообщения о ценных бумагах
+              </a>
+            </div>
+            <p class="footer__cookie">
+              Сайт Газпромбанка (Акционерное общество) использует cookie-файлы. Что это значит? Сookie&nbsp;&mdash; это небольшие файлы, которые содержат информацию о&nbsp;предыдущих посещениях сайта. Они используются для персонализации сервисов и&nbsp;для повышения удобства работы с&nbsp;сайтом. Если вы&nbsp;не&nbsp;хотите, чтобы сookie хранились на&nbsp;вашем устройстве, вы&nbsp;можете запретить их&nbsp;в&nbsp;настройках браузера или с&nbsp;помощью специальных программ. Обратите внимание, что после их&nbsp;отключения сайт может работать хуже
+            </p>
+            <ul class="socials footer__socials">
+              <li class="socials__item">
+                <a class="socials__link" href="#" aria-label="Ссылка на ВК">
+                  <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-vk"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#" aria-label="Ссылка на Одноклассники">
+                  <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-ok"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#" aria-label="Ссылка на Телеграм">
+                  <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#" aria-label="Ссылка на YouTube">
+                  <svg class="socials__icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-yt"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="footer__copyright">
+              <p class="footer__copyright-text">
+                &copy; 1990-2024, Банк ГПБ (АО) Генеральная лицензия Банка России &#8470;&nbsp;354
+              </p>
+              <span class="footer__copyright-date">
+                Информация от&nbsp;<time datetime="2024-01-05">5.01.2024</time>
+              </span>
+            </div>
+            <a class="footer__language-link" href="#" aria-label="Ссылка на английскую версию сайта">
+              <svg class="footer__language-icon" width="20" height="20" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-flag"></use>
+              </svg>
+              <span>
+                English version
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
