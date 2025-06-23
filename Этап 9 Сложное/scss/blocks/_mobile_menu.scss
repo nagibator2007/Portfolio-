@@ -1,0 +1,46 @@
+.mobile-menu {
+
+    &__list {
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__item {
+        opacity: 0;
+        transform: translateX(-20px);
+
+        animation: none;
+    }
+
+
+
+    &__link {
+        color: $color-white;
+        font-size: 32px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+}
+
+.header--open .mobile-menu__item {
+    animation-play-state: running;
+    animation: fadeInUp 0.5s ease forwards;
+    animation-delay: calc(var(--order) * 0.15s);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
