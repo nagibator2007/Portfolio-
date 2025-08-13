@@ -1,0 +1,11 @@
+/* src/components/Star/Star.css */
+.star {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.star svg {
+  width: 24px;
+  height: 24px;
+}

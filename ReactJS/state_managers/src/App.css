@@ -1,0 +1,35 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.App.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.theme-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.theme-button {
+  background-color: #cccccc;
+  color: #000000;
+}
+
+.App.dark .theme-button {
+  background-color: #555555;
+  color: #ffffff;
+}

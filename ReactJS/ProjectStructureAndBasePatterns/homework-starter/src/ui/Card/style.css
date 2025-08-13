@@ -1,0 +1,35 @@
+/* src/ui/Card/RestaurantCard.css */
+.restaurant-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.restaurant-card h3 {
+  margin: 0 0 8px 0;
+}
+
+.restaurant-card p {
+  color: #555;
+  margin: 0 0 8px 0;
+}
+
+.restaurant-card__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 16px;
+}
